@@ -22,6 +22,7 @@ A wide variety of crops and conditions, including:
 *   AIDS
 *   Eczema
 *   Smoker's Lung
+*   Vitiligo
 
 ## Recent Updates
 - **2026-01-19**: Large-scale dataset expansion merged into `main` via Pull Request #1. Included handling of large image datasets through batched commits.
