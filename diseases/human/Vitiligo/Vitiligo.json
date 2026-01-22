@@ -1,0 +1,16 @@
+{
+    "domain": "Human",
+    "name": "Vitiligo",
+    "description": "Vitiligo is a long-term skin condition in which white patches appear on the skin due to loss of pigment (melanin). It happens when pigment-producing cells (melanocytes) stop working or die. It is not contagious and can affect any age group.",
+    "image_url": "diseases/human/Vitiligo/images/Vitiligo.jpeg",
+    "stages": {
+        "Early": "Small white or light-colored patches start appearing on the skin, commonly on hands, face, feet, or around the eyes and mouth.",
+        "Progressive": "The white patches increase in size and number and may spread to other parts of the body. Hair in the affected area may turn white.",
+        "Advanced": "Large areas of skin lose color and patches become more noticeable and widespread."
+    },
+    "causes": "Vitiligo is mainly an autoimmune condition where the body's immune system attacks the pigment-producing cells. The exact cause is not fully known, but genetics, stress, and other immune disorders may increase the risk.",
+    "risk_factors": "Family history of vitiligo or autoimmune diseases, stress, skin injury, and other immune system disorders.",
+    "preventive_measures": "There is no sure way to prevent vitiligo, but protecting the skin from sunburn, avoiding skin injuries, managing stress, and using sunscreen can help reduce damage.",
+    "solution": "Treatment focuses on restoring skin color and stopping the spread. This includes topical creams, light therapy (phototherapy), skin grafting in severe cases, and cosmetic camouflage. A doctor should guide treatment.",
+    "report_made_by": "https://github.com/abhi-abhi86"
+}
