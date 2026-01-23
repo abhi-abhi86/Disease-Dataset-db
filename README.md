@@ -15,6 +15,7 @@ A wide variety of crops and conditions, including:
 ### 2. Animal Diseases
 *   Lumpy Skin Disease
 *   Sarcoptic Mange
+*   Sheep Pox
 *   Swine Erysipelas
 
 ### 3. Human Diseases
