@@ -1,15 +1,72 @@
 {
-    "domain": "plant",
-    "name": "Tomato Septoria Leaf Spot",
-    "description": "A very common and destructive fungal disease of tomato plants, caused by *Septoria lycopersici*. It is characterized by numerous small, circular spots on the leaves, which leads to severe yellowing, browning, and defoliation, weakening the plant and reducing fruit yield.",
-    "image_url": "diseases/plant/septoria_leaf_spot/images/tomato_septoria_leaf_spot.jpg",
-    "stages": {
-        "initial_infection": "Begins as small (1-3 mm), water-soaked, circular spots, primarily on the undersides of older, lower leaves. These spots are often numerous.",
-        "advanced_infection": "The spots enlarge and become well-defined, developing a characteristic appearance: a dark brown or black border with a lighter tan or grayish-white center. Tiny black dots (pycnidia, the fungal fruiting bodies) can often be seen in the center of the spots. As the spots multiply, the leaves turn yellow, then brown, wither, and fall off (defoliation). This defoliation progresses rapidly from the bottom of the plant upwards, leaving stems bare and exposing fruit to sunscald."
+  "id": "PLANT_DISEASE_TOMATO_SEPTORIA_LEAF_SPOT_001",
+  "domain": "plant",
+  "category": "fungal_disease",
+  "name": "Tomato Septoria Leaf Spot",
+  "scientific_name": "Unknown",
+  "common_names": [],
+  "description": "A very common and destructive fungal disease of tomato plants, caused by *Septoria lycopersici*. It is characterized by numerous small, circular spots on the leaves, which leads to severe yellowing, browning, and defoliation, weakening the plant and reducing fruit yield.",
+  "pathogen": {
+    "type": "Unknown",
+    "genus": "Unknown",
+    "species": "Unknown"
+  },
+  "affected_plants": [
+    "Tomato"
+  ],
+  "symptoms": [],
+  "disease_stages": {
+    "early_stage": {
+      "description": "Begins as small (1-3 mm), water-soaked, circular spots, primarily on the undersides of older, lower leaves. These spots are often numerous.",
+      "visual_signs": []
     },
-    "causes": "Caused by the fungus *Septoria lycopersici*. The fungus survives the winter on infected plant debris left in the field, on tomato stakes, and on some solanaceous weeds (like nightshade). Spores are spread by splashing water (rain, overhead irrigation) and wind-driven rain.",
-    "risk_factors": "Warm (20-25°C / 68-77°F), wet, and humid conditions. Long periods of high humidity and leaf wetness are essential for infection. Crowded planting and poor air circulation exacerbate the disease by keeping leaves wet for longer.",
-    "preventive_measures": "Use certified disease-free seeds and transplants. Practice crop rotation (a 3-4 year rotation away from tomatoes, peppers, and eggplant is ideal). **Remove and destroy all plant debris** at the end of the season. Mulch the soil heavily to create a barrier against spores splashing up onto the lower leaves. Water at the base of the plant (e.g., drip irrigation) to keep foliage dry. Stake or trellis plants and prune lower leaves to improve air circulation.",
-    "solution": "Remove and destroy infected leaves as soon as they appear to reduce the spread. Apply protective fungicides (e.g., chlorothalonil, mancozeb, copper-based) preventatively or at the first sign of disease. It is crucial to start applications before the disease becomes severe and to reapply according to label instructions, especially after rain.",
-    "report_made_by": "https://github.com/abhi-abhi86"
+    "middle_stage": {
+      "description": "The spots enlarge and become well-defined, developing a characteristic appearance: a dark brown or black border with a lighter tan or grayish-white center. Tiny black dots (pycnidia, the fungal fruiting bodies) can often be seen in the center of the spots. As the spots multiply, the leaves turn yellow, then brown, wither, and fall off (defoliation). This defoliation progresses rapidly from the bottom of the plant upwards, leaving stems bare and exposing fruit to sunscald.",
+      "visual_signs": []
+    },
+    "advanced_stage": {
+      "description": "",
+      "visual_signs": []
+    }
+  },
+  "causes": "Caused by the fungus *Septoria lycopersici*. The fungus survives the winter on infected plant debris left in the field, on tomato stakes, and on some solanaceous weeds (like nightshade). Spores are spread by splashing water (rain, overhead irrigation) and wind-driven rain.",
+  "mode_of_transmission": [],
+  "favorable_conditions": {
+    "temperature": "Unknown",
+    "humidity": "Unknown",
+    "environment": "Warm (20-25\u00b0C / 68-77\u00b0F), wet, and humid conditions. Long periods of high humidity and leaf wetness are essential for infection. Crowded planting and poor air circulation exacerbate the disease by keeping leaves wet for longer."
+  },
+  "severity_level": "Unknown",
+  "impact": {
+    "crop_loss_percentage": "Unknown",
+    "economic_impact": "Unknown"
+  },
+  "diagnosis": {
+    "field_diagnosis": "Unknown",
+    "laboratory_diagnosis": "Unknown"
+  },
+  "prevention": [
+    "Use certified disease",
+    "free seeds and transplants. Practice crop rotation (a 3",
+    "4 year rotation away from tomatoes, peppers, and eggplant is ideal). **Remove and destroy all plant debris** at the end of the season. Mulch the soil heavily to create a barrier against spores splashing up onto the lower leaves. Water at the base of the plant (e.g., drip irrigation) to keep foliage dry. Stake or trellis plants and prune lower leaves to improve air circulation."
+  ],
+  "treatment": {
+    "chemical_control": [
+      "Remove and destroy infected leaves as soon as they appear to reduce the spread. Apply protective fungicides (e.g., chlorothalonil, mancozeb, copper-based) preventatively or at the first sign of disease. It is crucial to start applications before the disease becomes severe and to reapply according to label instructions, especially after rain."
+    ],
+    "organic_control": [],
+    "cultural_control": []
+  },
+  "resistant_varieties": "Unknown",
+  "life_cycle": "Unknown",
+  "geographical_distribution": [],
+  "image_url": "diseases/plant/Tomato_Septoria_leaf_spot/images/0a68a294-30d1-4422-ab7e-a1909ec277f7___JR_Sept.L.S 8443.JPG",
+  "related_diseases": [],
+  "dataset_metadata": {
+    "created_by": "https://github.com/abhi-abhi86",
+    "version": "1.0",
+    "last_updated": "2026-01-26",
+    "language": "en",
+    "intended_use": "Machine learning training, research, and educational purpose"
+  }
 }

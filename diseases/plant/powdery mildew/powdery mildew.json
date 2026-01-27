@@ -1,15 +1,121 @@
 {
-    "domain": "plant",
-    "name": "Powdery Mildew",
-    "description": "A common fungal disease that affects a wide variety of plants, identified by its characteristic white, powdery spots on leaves and stems. It hinders photosynthesis, causing stress and potentially reducing plant vigor and crop yields.",
-    "image_url": "diseases/plant/powdery mildew/images/powdery mildew.jpg",
-    "stages": {
-        "initial_infection": "Begins as small, white to grayish, circular powdery spots on the upper surface of leaves or on stems. These spots are often sparse and can be easily overlooked.",
-        "advanced_infection": "The fungal spots enlarge and merge, eventually covering entire leaves, stems, and sometimes buds or fruit. Affected leaves may turn yellow, become distorted, dry out, and drop prematurely, weakening the plant."
+  "id": "PLANT_DISEASE_POWDERY_MILDEW_001",
+  "domain": "plant",
+  "category": "fungal_disease",
+  "name": "Powdery Mildew",
+  "scientific_name": "Order Erysiphales (Various species)",
+  "common_names": [
+    "White mold",
+    "Oidium"
+  ],
+  "description": "Powdery mildew is a common fungal disease that affects a wide variety of plants. It is easily recognized by distinct white, powdery fungal growth on leaves and stems. Unlike many other fungal pathogens, powdery mildew can thrive in dry conditions with high humidity and does not require free water on the leaf surface to germinate.",
+  "pathogen": {
+    "type": "Fungus",
+    "genus": "Multiple (e.g., Erysiphe, Podosphaera, Blumeria)",
+    "species": "Various species (host specific)"
+  },
+  "affected_plants": [
+    "Rose",
+    "Grape",
+    "Cucumber",
+    "Squash",
+    "Zucchini",
+    "Apple",
+    "Cherry",
+    "Wheat",
+    "Peas"
+  ],
+  "symptoms": [
+    "White powdery spots on leaves and stems",
+    "Leaves turning yellow and drying out",
+    "Twisted, distorted, or stunted foliage",
+    "Disfigured buds and fruit",
+    "Premature leaf drop"
+  ],
+  "disease_stages": {
+    "early_stage": {
+      "description": "Small, circular, white powdery spots appear on leaves (often undersides) and stems.",
+      "visual_signs": [
+        "White dusting on leaves",
+        "Small circular spots"
+      ]
     },
-    "causes": "Caused by various species of fungi in the order Erysiphales. Unlike many other fungi, these spores do not require water to germinate and are spread by wind. The disease thrives in conditions with high humidity at night and warm, dry days.",
-    "risk_factors": "Crowded plantings with poor air circulation, shady locations, high humidity, and moderate temperatures (20-30\u00b0C) create an ideal environment for the fungus to grow and spread.",
-    "preventive_measures": "Choose resistant plant varieties. Ensure good air circulation by providing adequate spacing between plants. Plant in sunny areas. Water the soil directly and avoid wetting the foliage. Avoid excessive nitrogen fertilizer.",
-    "solution": "For mild cases, remove and destroy infected leaves. Sprays made from neem oil, potassium bicarbonate, or a diluted milk solution can be effective organic treatments. For severe infections, horticultural oils and commercial fungicides can be applied according to the product's instructions. Early detection is key for effective control.",
-    "report_made_by": "https://github.com/abhi-abhi86"
+    "middle_stage": {
+      "description": "Spots enlarge and merge, covering significant leaf area. Fungal growth becomes denser and may turn gray.",
+      "visual_signs": [
+        "Leaves covered in white powder",
+        "Yellowing of infected tissue"
+      ]
+    },
+    "advanced_stage": {
+      "description": "Leaves curl, wither, and brown. Flower buds may fail to open or produce poor quality fruit. Severe infection can stunt plant growth.",
+      "visual_signs": [
+        "Leaf curling and drop",
+        "Necrotic (dead) patches",
+        "Stunted growth"
+      ]
+    }
+  },
+  "causes": "Caused by biotrophic fungi in the order Erysiphales. Detailed host specificity depends on the fungal species (e.g., Podosphaera xanthii on cucurbits). Spores (conidia) are spread by wind.",
+  "mode_of_transmission": [
+    "Wind-blown spores",
+    "Infected tools",
+    "Clothing contact"
+  ],
+  "favorable_conditions": {
+    "temperature": "20°C to 30°C",
+    "humidity": "High humidity (wets spores not required), dry foliage",
+    "environment": "Shady areas with poor air circulation and crowded plants"
+  },
+  "severity_level": "Moderate",
+  "impact": {
+    "crop_loss_percentage": "10% to 40%",
+    "economic_impact": "Reduces yield and quality, especially in ornamentals (rosaes) and fruits (grapes, cucurbits)"
+  },
+  "diagnosis": {
+    "field_diagnosis": "Visual identification of white powdery growth that can be wiped off",
+    "laboratory_diagnosis": "Microscopic examination of conidia chains"
+  },
+  "prevention": [
+    "Plant resistant varieties",
+    "Space plants to ensure good air circulation",
+    "Prune overcrowded growth",
+    "Place plants in sunny locations",
+    "Avoid over-fertilization with nitrogen"
+  ],
+  "treatment": {
+    "chemical_control": [
+      "Sulfur-based fungicides",
+      "Myclobutanil",
+      "Triadimefon"
+    ],
+    "organic_control": [
+      "Neem oil",
+      "Potassium bicarbonate sprays",
+      "Milk solution (1:10 dilution)",
+      "Horticultural oils"
+    ],
+    "cultural_control": [
+      "Remove and destroy infected plant parts",
+      "Clean up fallen debris",
+      "Water at the base to avoid wetting leaves (though water can sometimes wash off spores, dry foliage is generally preferred to prevent other diseases)"
+    ]
+  },
+  "resistant_varieties": "Available for many crops like cucumber (e.g., 'Marketmore 76'), melon, and peas.",
+  "life_cycle": "The fungus overwinters in dormant buds or on plant debris. In spring, spores are released and carried by wind to new growth. The cycle repeats every 7-10 days under favorable conditions.",
+  "geographical_distribution": [
+    "Worldwide"
+  ],
+  "image_url": "diseases/plant/powdery mildew/images/Powdery Mildew.png",
+  "related_diseases": [
+    "Downy mildew",
+    "Gray mold (Botrytis)"
+  ],
+  "dataset_metadata": {
+    "created_by": "https://github.com/abhi-abhi86",
+    "version": "1.0",
+    "last_updated": "2026-01-26",
+    "language": "en",
+    "intended_use": "Machine learning training, research, and educational purpose"
+  }
 }
