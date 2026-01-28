@@ -1,0 +1,122 @@
+{
+    "id": "DISEASE_HUMAN_ACNEVULGARIS_001",
+    "domain": "human",
+    "category": "dermatological_condition",
+    "name": "Acne Vulgaris",
+    "scientific_name": "Acne vulgaris",
+    "common_names": [
+        "Acne",
+        "Pimples",
+        "Zits",
+        "Spots"
+    ],
+    "description": "A chronic inflammatory skin condition that occurs when hair follicles become clogged with oil and dead skin cells. It is characterized by lesions like pimples, blackheads, whiteheads, and deeper lumps (cysts or nodules), primarily on the face, neck, chest, back, and shoulders.",
+    "pathogen": {
+        "type": "Bacterium",
+        "genus": "Cutibacterium",
+        "species": "Cutibacterium acnes (formerly Propionibacterium acnes)"
+    },
+    "affected_body_parts": [
+        "Face",
+        "Neck",
+        "Chest",
+        "Back",
+        "Shoulders"
+    ],
+    "symptoms": [
+        "Whiteheads (closed plugged pores)",
+        "Blackheads (open plugged pores)",
+        "Papules (small red, tender bumps)",
+        "Pustules (pimples with pus)",
+        "Nodules (large, solid, painful lumps under skin)",
+        "Cystic lesions (painful, pus-filled lumps under skin)"
+    ],
+    "disease_stages": {
+        "early_stage": {
+            "description": "Mild acne consisting mainly of comedones (blackheads and whiteheads) with a few scattered papules. Excess oiliness may be present.",
+            "visual_signs": [
+                "Blackheads and whiteheads",
+                "Occasional small red bumps"
+            ]
+        },
+        "middle_stage": {
+            "description": "Moderate acne with a greater number of inflamed papules and pustules covering more skin area. Mild scarring may begin to appear.",
+            "visual_signs": [
+                "Numerous red pimples",
+                "Pustules with yellow/white centers"
+            ]
+        },
+        "advanced_stage": {
+            "description": "Severe nodulocystic acne characterized by deep, painful cysts and nodules. High risk of permanent scarring and post-inflammatory hyperpigmentation.",
+            "visual_signs": [
+                "Deep, painful lumps",
+                "Extensive inflammation",
+                "Visible scarring"
+            ]
+        }
+    },
+    "causes": "Acne is caused by a combination of factors: excess oil (sebum) production, hair follicles clogged by oil and dead skin cells, bacteria (Cutibacterium acnes), and inflammation.",
+    "mode_of_transmission": [
+        "Non-communicable (not contagious)",
+        "Hormonal changes",
+        "Genetic predisposition"
+    ],
+    "favorable_conditions": {
+        "temperature": "Can worsen in humid conditions",
+        "humidity": "High humidity can increase oil production",
+        "environment": "Exposure to greasy or oily substances, pollution"
+    },
+    "severity_level": "Variable (Mild to Severe)",
+    "impact": {
+        "prevalence": "Affects approx. 85% of people between ages 12 and 24",
+        "socio_economic_impact": "Significant psychological impact, including anxiety, depression, and low self-esteem; costs associated with skincare and dermatological treatments."
+    },
+    "diagnosis": {
+        "field_diagnosis": "Visual examination of the skin lesions",
+        "laboratory_diagnosis": "Rarely needed; microbial culture if resistant to antibiotics; hormonal profiling for females with signs of hyperandrogenism."
+    },
+    "prevention": [
+        "Wash face gently twice a day",
+        "Use non-comedogenic (oil-free) products",
+        "Avoid picking or squeezing pimples",
+        "Remove makeup before bed",
+        "Shower after lower-intensity exercise"
+    ],
+    "treatment": {
+        "medical_control": [
+            "Topical retinoids (tretinoin, adapalene)",
+            "Benzoyl peroxide",
+            "Topical antibiotics (clindamycin)",
+            "Oral antibiotics (doxycycline, minocycline)",
+            "Oral isotretinoin (Accutane) for severe cases"
+        ],
+        "lifestyle_control": [
+            "Low-glycemic diet",
+            "Stress management",
+            "Proper skincare routine"
+        ],
+        "supportive_care": [
+            "Chemical peels",
+            "Laser and light therapies",
+            "Extraction of comedones"
+        ]
+    },
+    "susceptible_populations": "Adolescents (puberty), Pregnant women (hormonal changes), Individuals with family history.",
+    "life_cycle": "Adolescent acne often starts at puberty and may resolve by early 20s. Adult acne can persist or onset later in life.",
+    "geographical_distribution": [
+        "Worldwide"
+    ],
+    "image_url": "diseases/human/acne_vulgaris/images/Acne Vulgaris.png",
+    "related_diseases": [
+        "Rosacea",
+        "Folliculitis",
+        "Keratosis pilaris"
+    ],
+    "dataset_metadata": {
+        "created_by": "https://github.com/abhi-abhi86",
+        "version": "1.0",
+        "last_updated": "2026-01-26",
+        "language": "en",
+        "intended_use": "Machine learning training, research, and educational purpose"
+    }
+}

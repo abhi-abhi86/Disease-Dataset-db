@@ -1,0 +1,120 @@
+{
+    "id": "DISEASE_HUMAN_ECZEMA_001",
+    "domain": "human",
+    "category": "dermatological_condition",
+    "name": "Eczema",
+    "scientific_name": "Atopic Dermatitis",
+    "common_names": [
+        "Atopic eczema",
+        "Dermatitis"
+    ],
+    "description": "A chronic condition that causes the skin to become itchy, red, dry and cracked. Atopic dermatitis is the most common form of eczema, and it primarily affects children but can continue into adulthood.",
+    "pathogen": {
+        "type": "Non-infectious",
+        "genus": "N/A",
+        "species": "N/A"
+    },
+    "affected_body_parts": [
+        "Hands",
+        "Feet",
+        "Face",
+        "Inside of elbows",
+        "Back of knees",
+        "Scalp"
+    ],
+    "symptoms": [
+        "Dry skin",
+        "Intense itching",
+        "Red to brownish-gray patches",
+        "Small, raised bumps (may leak fluid)",
+        "Thickened, cracked, scaly skin",
+        "Raw, sensitive skin"
+    ],
+    "disease_stages": {
+        "early_stage": {
+            "description": "Acute Eczema: Intense itching, visible redness (erythema), and tiny blisters (vesicles) that may weep fluid.",
+            "visual_signs": [
+                "Redness",
+                "Fluid-filled blisters"
+            ]
+        },
+        "middle_stage": {
+            "description": "Subacute Eczema: Less weeping/crusting. Skin becomes dry, flaky, and scaly with red borders.",
+            "visual_signs": [
+                "Scaly patches",
+                "Cracked skin"
+            ]
+        },
+        "advanced_stage": {
+            "description": "Chronic Eczema: Lichenification (thickening of the skin) from constant scratching. Skin looks leathery and exaggerated.",
+            "visual_signs": [
+                "Thickened (leathery) skin",
+                "Deep skin lines",
+                "Hyperpigmentation"
+            ]
+        }
+    },
+    "causes": "Unknown precise cause. Believed to be a combination of genetic factors (gene variation affecting skin barrier function), immune system dysfunction, and environmental triggers.",
+    "mode_of_transmission": [
+        "Non-communicable",
+        "Hereditary predisposition"
+    ],
+    "favorable_conditions": {
+        "temperature": "Extreme temperatures (hot or cold)",
+        "humidity": "Low humidity (dry air)",
+        "environment": "Exposure to allergens (dust mites, pollen), irritants (soaps, detergents)"
+    },
+    "severity_level": "Variable (Mild to Severe)",
+    "impact": {
+        "prevalence": "Affects 15-20% of children and 1-3% of adults globally",
+        "socio_economic_impact": "Disrupts sleep, reduces quality of life, increases medical costs for long-term management."
+    },
+    "diagnosis": {
+        "field_diagnosis": "Visual examination of skin and family history review",
+        "laboratory_diagnosis": "Patch testing (for contact dermatitis), Skin biopsy (rarely needed), IgE blood tests (for allergies)."
+    },
+    "prevention": [
+        "Identify and avoid triggers",
+        "Moisturize regularly (at least twice daily)",
+        "Avoid scratchy fabrics like wool",
+        "Use mild soaps and detergents",
+        "Manage stress"
+    ],
+    "treatment": {
+        "medical_control": [
+            "Topical corticosteroids (Hydrocortisone)",
+            "Topical calcineurin inhibitors (Tacrolimus)",
+            "Oral antihistamines (for itching)",
+            "JAK inhibitors (for mod-severe cases)",
+            "Dupilumab (biologic injection)"
+        ],
+        "lifestyle_control": [
+            "Lukewarm baths/showers",
+            "Frequent moisturization",
+            "Bleach baths (diluted, to reduce bacteria)"
+        ],
+        "supportive_care": [
+            "Wet wrap therapy",
+            "Phototherapy (UV light treatment)",
+            "Psychological support for distress"
+        ]
+    },
+    "susceptible_populations": "Children, Individuals with family history of atopic triad (eczema, asthma, hay fever).",
+    "life_cycle": "Often begins in infancy. Many children outgrow it, but it can persist or recur in adulthood.",
+    "geographical_distribution": [
+        "Worldwide (Higher in developed countries)"
+    ],
+    "image_url": "diseases/human/eczema/images/eczema.jpg.png",
+    "related_diseases": [
+        "Asthma",
+        "Hay Fever (Allergic Rhinitis)",
+        "Food Allergies"
+    ],
+    "dataset_metadata": {
+        "created_by": "https://github.com/abhi-abhi86",
+        "version": "1.0",
+        "last_updated": "2026-01-26",
+        "language": "en",
+        "intended_use": "Machine learning training, research, and educational purpose"
+    }
+}

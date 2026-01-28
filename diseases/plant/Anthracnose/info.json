@@ -1,0 +1,125 @@
+{
+    "id": "PLANT_DISEASE_ANTHRACNOSE_001",
+    "domain": "plant",
+    "category": "fungal_disease",
+    "name": "Anthracnose",
+    "scientific_name": "Colletotrichum spp.",
+    "common_names": [
+        "Fruit rot",
+        "Leaf spot",
+        "Anthracnose disease"
+    ],
+    "description": "Anthracnose is a serious fungal disease that affects many fruits, vegetables, and plants such as mango, chili, tomato, beans, and grapes. It causes dark, sunken, rotten spots on fruits, leaves, and stems. The disease spreads fast in warm and wet climate and can cause heavy crop loss.",
+    "pathogen": {
+        "type": "Fungus",
+        "genus": "Colletotrichum",
+        "species": "Multiple species"
+    },
+    "affected_plants": [
+        "Mango",
+        "Chili",
+        "Tomato",
+        "Papaya",
+        "Beans",
+        "Grapes",
+        "Guava",
+        "Strawberry"
+    ],
+    "symptoms": [
+        "Dark brown or black sunken spots on fruits",
+        "Circular spots on leaves",
+        "Stem lesions",
+        "Fruit rotting",
+        "Premature fruit drop",
+        "Drying of leaves and branches"
+    ],
+    "disease_stages": {
+        "early_stage": {
+            "description": "Small, dark, water-soaked spots appear on leaves or fruits. The spots slowly grow in size.",
+            "visual_signs": [
+                "Small dark spots",
+                "Slightly sunken areas"
+            ]
+        },
+        "middle_stage": {
+            "description": "The spots become larger, darker, and clearly sunken. The infected tissue starts to die.",
+            "visual_signs": [
+                "Bigger black lesions",
+                "Cracks on fruit skin"
+            ]
+        },
+        "advanced_stage": {
+            "description": "The infected part becomes fully rotten and unfit for use. Secondary infections may occur.",
+            "visual_signs": [
+                "Deep rotting",
+                "Completely damaged fruit"
+            ]
+        }
+    },
+    "causes": "The disease is caused by Colletotrichum fungus. It spreads through infected seeds, plant waste, rain splash, wind, insects, and farm tools.",
+    "mode_of_transmission": [
+        "Rainwater splash",
+        "Wind",
+        "Infected seeds and plants",
+        "Insects",
+        "Contaminated tools and soil"
+    ],
+    "favorable_conditions": {
+        "temperature": "25\u00b0C to 32\u00b0C",
+        "humidity": "High humidity and frequent rain",
+        "environment": "Warm, wet, and poorly ventilated fields"
+    },
+    "severity_level": "High",
+    "impact": {
+        "crop_loss_percentage": "20% to 80%",
+        "economic_impact": "Causes heavy loss to farmers due to fruit rotting and reduced market value"
+    },
+    "diagnosis": {
+        "field_diagnosis": "Based on visible dark, sunken lesions on fruits and leaves",
+        "laboratory_diagnosis": "Microscopic examination and fungal culture test"
+    },
+    "prevention": [
+        "Use disease-free seeds and seedlings",
+        "Remove and destroy infected plant parts",
+        "Maintain proper plant spacing",
+        "Avoid overhead irrigation",
+        "Follow crop rotation",
+        "Keep the field clean"
+    ],
+    "treatment": {
+        "chemical_control": [
+            "Spray recommended fungicides like Mancozeb or Carbendazim",
+            "Apply Copper-based fungicides"
+        ],
+        "organic_control": [
+            "Neem oil spray",
+            "Use of Trichoderma bio-fungicide"
+        ],
+        "cultural_control": [
+            "Improve air circulation",
+            "Avoid wetting leaves and fruits while watering"
+        ]
+    },
+    "resistant_varieties": "Some disease-resistant varieties are available depending on the crop.",
+    "life_cycle": "The fungus survives in plant debris and soil. It spreads during rain and infects new plants. It produces spores that spread the disease again and again in one season.",
+    "geographical_distribution": [
+        "India",
+        "Southeast Asia",
+        "Africa",
+        "South America",
+        "North America"
+    ],
+    "image_url": "diseases/plant/anthracnose/images/images-3.jpeg",
+    "related_diseases": [
+        "Powdery mildew",
+        "Leaf blight",
+        "Fruit rot"
+    ],
+    "dataset_metadata": {
+        "created_by": "https://github.com/abhi-abhi86",
+        "version": "1.0",
+        "last_updated": "2026-01-26",
+        "language": "en",
+        "intended_use": "Machine learning training, research, and educational purpose"
+    }
+}

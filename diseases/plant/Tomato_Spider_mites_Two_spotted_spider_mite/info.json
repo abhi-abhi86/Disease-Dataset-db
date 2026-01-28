@@ -1,0 +1,70 @@
+{
+    "id": "PLANT_DISEASE_TOMATO_TWO_SPOTTED_SPIDER_MITE_001",
+    "domain": "plant",
+    "category": "fungal_disease",
+    "name": "Tomato - Two-spotted Spider Mite",
+    "scientific_name": "Unknown",
+    "common_names": [],
+    "description": "A common and highly destructive plant pest, not an insect but an arachnid (mite). These tiny pests feed by piercing plant cells and sucking out their contents, causing a characteristic stippling on leaves, which can lead to severe plant stress, defoliation, and reduced yield.",
+    "pathogen": {
+        "type": "Unknown",
+        "genus": "Unknown",
+        "species": "Unknown"
+    },
+    "affected_plants": [
+        "Tomato"
+    ],
+    "symptoms": [],
+    "disease_stages": {
+        "early_stage": {
+            "description": "",
+            "visual_signs": []
+        },
+        "middle_stage": {
+            "description": "",
+            "visual_signs": []
+        },
+        "advanced_stage": {
+            "description": "",
+            "visual_signs": []
+        }
+    },
+    "causes": "",
+    "mode_of_transmission": [],
+    "favorable_conditions": {
+        "temperature": "Unknown",
+        "humidity": "Unknown",
+        "environment": "**Hot, dry, and dusty conditions** are ideal for spider mite outbreaks. Low humidity, drought-stressed plants, and the overuse of broad-spectrum insecticides (which kill off their natural predators like ladybugs and predatory mites) strongly favor their rapid multiplication."
+    },
+    "severity_level": "Unknown",
+    "impact": {
+        "crop_loss_percentage": "Unknown",
+        "economic_impact": "Unknown"
+    },
+    "diagnosis": {
+        "field_diagnosis": "Unknown",
+        "laboratory_diagnosis": "Unknown"
+    },
+    "prevention": [
+        "Maintain adequate plant hydration; spider mites thrive on stressed plants. Regularly spray plants with water, focusing on the undersides of leaves, to increase humidity and dislodge mites. Encourage natural predators. Inspect new plants thoroughly before introducing them to your garden."
+    ],
+    "treatment": {
+        "chemical_control": [
+            "For mild infestations, a strong blast of water can be effective. Apply insecticidal soap or horticultural oil (like neem oil), ensuring **thorough coverage** of the entire plant, especially the undersides of leaves. Repeat applications every 5-7 days to control newly hatched mites. For severe cases, releasing predatory mites (*Phytoseiulus persimilis*) is an effective biological control, or specific chemical miticides can be used (rotate products to prevent resistance)."
+        ],
+        "organic_control": [],
+        "cultural_control": []
+    },
+    "resistant_varieties": "Unknown",
+    "life_cycle": "Unknown",
+    "geographical_distribution": [],
+    "image_url": "diseases/plant/tomato_spider_mites_two_spotted_spider_mite/images/0d6a202a-046f-47b2-beec-cc6a1e7deae6___Com.G_SpM_FL 8937.JPG",
+    "related_diseases": [],
+    "dataset_metadata": {
+        "created_by": "https://github.com/abhi-abhi86",
+        "version": "1.0",
+        "last_updated": "2026-01-26",
+        "language": "en",
+        "intended_use": "Machine learning training, research, and educational purpose"
+    }
+}
