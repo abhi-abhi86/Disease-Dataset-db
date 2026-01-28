@@ -1,0 +1,120 @@
+{
+    "id": "DISEASE_HUMAN_AIDS_001",
+    "domain": "human",
+    "category": "viral_disease",
+    "name": "AIDS",
+    "scientific_name": "Acquired Immunodeficiency Syndrome (caused by HIV)",
+    "common_names": [
+        "HIV/AIDS",
+        "Late-stage HIV"
+    ],
+    "description": "Acquired Immunodeficiency Syndrome (AIDS) is the most advanced stage of infection with Human Immunodeficiency Virus (HIV). It damages the immune system, specifically CD4 cells (T cells), making the body vulnerable to opportunistic infections and cancers.",
+    "pathogen": {
+        "type": "Virus",
+        "genus": "Lentivirus",
+        "species": "Human Immunodeficiency Virus (HIV-1, HIV-2)"
+    },
+    "affected_body_parts": [
+        "Immune System",
+        "CD4 T Cells",
+        "Lymphatic System",
+        "Nervous System"
+    ],
+    "symptoms": [
+        "Rapid weight loss",
+        "Recurring fever or profuse night sweats",
+        "Extreme and unexplained tiredness",
+        "Prolonged swelling of the lymph glands",
+        "Chronic diarrhea",
+        "Sores of the mouth, anus, or genitals",
+        "Pneumonia"
+    ],
+    "disease_stages": {
+        "early_stage": {
+            "description": "Acute HIV Infection: Occurs 2-4 weeks after infection. Flu-like symptoms (fever, rash, headache). High viral load and very contagious.",
+            "visual_signs": [
+                "Skin rash",
+                "Swollen glands"
+            ]
+        },
+        "middle_stage": {
+            "description": "Clinical Latency (Chronic HIV): Virus is active but reproduces at low levels. Asymptomatic or mild symptoms. Can last decades with treatment.",
+            "visual_signs": [
+                "Often no visible signs"
+            ]
+        },
+        "advanced_stage": {
+            "description": "AIDS: Severe damage to the immune system (CD4 < 200 cells/mm³). Occurrence of opportunistic infections (e.g., Kaposi's sarcoma, pneumocystis pneumonia).",
+            "visual_signs": [
+                "Wasting syndrome (extreme thinness)",
+                "Purplish lesions on skin/mouth",
+                "Oral thrush"
+            ]
+        }
+    },
+    "causes": "Caused by the Human Immunodeficiency Virus (HIV). It destroys CD4 T lymphocyte cells, which are crucial to the immune system.",
+    "mode_of_transmission": [
+        "Unprotected sexual contact",
+        "Sharing contaminated needles/syringes",
+        "Mother-to-child (pregnancy, birth, breastfeeding)",
+        "Blood transfusions (rare where screened)"
+    ],
+    "favorable_conditions": {
+        "temperature": "Virus is fragile outside host",
+        "humidity": "Does not survive long in environment",
+        "environment": "Spreads via direct contact with specific body fluids"
+    },
+    "severity_level": "Life-threatening (Chronic/Manageable with treatment)",
+    "impact": {
+        "prevalence": "Approx. 39 million people globally living with HIV (2022)",
+        "socio_economic_impact": "Major global health burden, though managed effectively with ART; stigma and discrimination remain challenges."
+    },
+    "diagnosis": {
+        "field_diagnosis": "Rapid antibody tests (oral fluid or fingerstick)",
+        "laboratory_diagnosis": "ELISA/Western Blot, Nucleic Acid Tests (NAT) for viral load, CD4 count monitoring."
+    },
+    "prevention": [
+        "Safe sex practices (condoms)",
+        "PrEP (Pre-Exposure Prophylaxis) for high-risk individuals",
+        "PEP (Post-Exposure Prophylaxis) after potential exposure",
+        "Needle exchange programs",
+        "Treatment as Prevention (TasP)"
+    ],
+    "treatment": {
+        "medical_control": [
+            "Antiretroviral Therapy (ART)",
+            "Nucleoside Reverse Transcriptase Inhibitors (NRTIs)",
+            "Integrase inhibitors",
+            "Protease inhibitors"
+        ],
+        "lifestyle_control": [
+            "Healthy diet",
+            "Regular exercise",
+            "Smoking cessation"
+        ],
+        "supportive_care": [
+            "Management of opportunistic infections",
+            "Psychological counseling",
+            "Nutritional support"
+        ]
+    },
+    "susceptible_populations": "Populations with high-risk behaviors, infants of untreated mothers.",
+    "life_cycle": "Retrovirus life cycle: binding, fusion, reverse transcription, integration, replication, assembly, and budding.",
+    "geographical_distribution": [
+        "Sub-Saharan Africa (highest prevalence)",
+        "Worldwide"
+    ],
+    "image_url": "diseases/human/aids/images/HIV.png",
+    "related_diseases": [
+        "Tuberculosis (opportunistic)",
+        "Hepatitis B & C",
+        "Kaposi's Sarcoma"
+    ],
+    "dataset_metadata": {
+        "created_by": "https://github.com/abhi-abhi86",
+        "version": "1.0",
+        "last_updated": "2026-01-26",
+        "language": "en",
+        "intended_use": "Machine learning training, research, and educational purpose"
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "id": "DISEASE_HUMAN_VITILIGO_001",
+    "domain": "human",
+    "category": "dermatological_condition",
+    "name": "Vitiligo",
+    "scientific_name": "Vitiligo",
+    "common_names": [
+        "Leucoderma"
+    ],
+    "description": "Vitiligo is a long-term skin condition in which patches of skin lose their pigment (color). The affected areas become white and usually have sharp margins. The hair from the skin may also become white.",
+    "pathogen": {
+        "type": "Autoimmune/Genetic",
+        "genus": "N/A",
+        "species": "Destruction of Melanocytes (pigment cells)"
+    },
+    "affected_body_parts": [
+        "Face (around mouth and eyes)",
+        "Fingers and wrists",
+        "Armpits",
+        "Groin",
+        "Genitals",
+        "Inside the mouth"
+    ],
+    "symptoms": [
+        "Patchy loss of skin color",
+        "Premature whitening or graying of hair (scalp, eyelashes, eyebrows, beard)",
+        "Loss of color in tissues that line the inside of the mouth and nose (mucous membranes)"
+    ],
+    "disease_stages": {
+        "early_stage": {
+            "description": "Non-segmental vitiligo often starts with pale patches that gradually turn completely white. It may begin on hands, forearms, feet, or face.",
+            "visual_signs": [
+                "Pale, depigmented spots",
+                "Margins are often hyperpigmented"
+            ]
+        },
+        "middle_stage": {
+            "description": "Active Vitiligo: Patches enlarge and new patches appear. This can happen slowly over years or rapidly.",
+            "visual_signs": [
+                "Clearly defined white patches",
+                "Koebner phenomenon (patches at injury sites)"
+            ]
+        },
+        "advanced_stage": {
+            "description": "Stable Vitiligo: The patches stop spreading and remain static. In severe cases (Vitiligo Universalis), nearly all skin pigment is lost.",
+            "visual_signs": [
+                "Widespread depigmentation",
+                "Sharply defined borders"
+            ]
+        }
+    },
+    "causes": "The exact cause is unknown, but it involves the destruction of melanocytes. Theories include autoimmune destruction, genetic oxidative stress imbalance, and neurogenic factors.",
+    "mode_of_transmission": [
+        "Non-communicable (not contagious)",
+        "Hereditary predisposition"
+    ],
+    "favorable_conditions": {
+        "temperature": "Sun exposure can cause burns on depigmented skin",
+        "humidity": "N/A",
+        "environment": "Physical or emotional stress, skin trauma (sunburn, cuts)"
+    },
+    "severity_level": "Cosmetic/Psychological (Not life-threatening)",
+    "impact": {
+        "prevalence": "Affects 0.5% to 2% of the world population.",
+        "socio_economic_impact": "Primarily psychological distress, social stigmatization in some cultures, and costs for cosmetic/medical treatments."
+    },
+    "diagnosis": {
+        "field_diagnosis": "Visual examination, Wood's lamp examination (UV light makes white patches glow).",
+        "laboratory_diagnosis": "Skin biopsy (rare), Blood tests to check for other autoimmune conditions (thyroid, diabetes)."
+    },
+    "prevention": [
+        "Sun protection (sunscreen, clothing)",
+        "Avoid skin trauma (tight clothing, cuts)",
+        "Manage stress"
+    ],
+    "treatment": {
+        "medical_control": [
+            "Topical corticosteroids",
+            "Topical calcineurin inhibitors (tacrolimus)",
+            "Depigmentation (monobenzone) for widespread cases"
+        ],
+        "lifestyle_control": [
+            "Cosmetic camouflage (makeup, self-tanners)",
+            "Sun safety",
+            "Psychological support"
+        ],
+        "supportive_care": [
+            "Phototherapy (NB-UVB)",
+            "Excimer laser",
+            "Skin grafting (for stable vitiligo)"
+        ]
+    },
+    "susceptible_populations": "People with autoimmune diseases (Hashimoto's, Alopecia Areata), Family history.",
+    "life_cycle": "Chronic and unpredictable. It may stop (stable), progress slowly, or spread rapidly (active).",
+    "geographical_distribution": [
+        "Worldwide"
+    ],
+    "image_url": "diseases/human/vitiligo/images/Vitiligo.jpeg",
+    "related_diseases": [
+        "Thyroid disease (Hashimoto's)",
+        "Alopecia Areata",
+        "Pernicious Anemia"
+    ],
+    "dataset_metadata": {
+        "created_by": "https://github.com/abhi-abhi86",
+        "version": "1.0",
+        "last_updated": "2026-01-26",
+        "language": "en",
+        "intended_use": "Machine learning training, research, and educational purpose"
+    }
+}

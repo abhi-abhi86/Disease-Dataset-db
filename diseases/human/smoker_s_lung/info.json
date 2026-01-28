@@ -1,0 +1,119 @@
+{
+    "id": "DISEASE_HUMAN_SMOKERSLUNG_001",
+    "domain": "human",
+    "category": "respiratory_condition",
+    "name": "Smoker's Lung",
+    "scientific_name": "Chronic Obstructive Pulmonary Disease (COPD) / Pulmonary Emphysema",
+    "common_names": [
+        "Smoker's lung",
+        "Emphysema",
+        "Chronic Bronchitis"
+    ],
+    "description": "A general term describing the appearance of lungs severely damaged by long-term inhalation of tobacco smoke. It often manifests as Chronic Obstructive Pulmonary Disease (COPD), which includes emphysema (destruction of air sacs) and chronic bronchitis (inflammation of airway lining).",
+    "pathogen": {
+        "type": "Environmental Toxin",
+        "genus": "Tobacco Smoke",
+        "species": "Contains carcinogens (Tar, Nicotine, Carbon Monoxide)"
+    },
+    "affected_body_parts": [
+        "Lungs",
+        "Bronchi",
+        "Alveoli (Air Sacs)",
+        "Trachea"
+    ],
+    "symptoms": [
+        "Chronic cough ('smoker's cough')",
+        "Shortness of breath (dyspnea)",
+        "Wheezing",
+        "Excess mental mucus production",
+        "Fatigue",
+        "Frequent respiratory infections",
+        "Chest tightness"
+    ],
+    "disease_stages": {
+        "early_stage": {
+            "description": "Mild COPD/Damage: Chronic cough and increased mucus. Lung function may be slightly reduced, but daily activities are not significantly impacted.",
+            "visual_signs": [
+                "Inflamed airways",
+                "Excess mucus"
+            ]
+        },
+        "middle_stage": {
+            "description": "Moderate COPD: Shortness of breath develops during exertion. Cough becomes more persistent. Air sacs begin to lose elasticity.",
+            "visual_signs": [
+                "Darkening of lung tissue (tar deposits)",
+                "Thickened bronchial walls"
+            ]
+        },
+        "advanced_stage": {
+            "description": "Severe COPD/Emphysema: Severe shortness of breath even at rest. Extensive destruction of alveoli leading to large air pockets (bullae). Heart complications (cor pulmonale) may arise.",
+            "visual_signs": [
+                "Blackened, scarred lung tissue",
+                "Hyperinflated lungs (barrel chest)",
+                "Emphysematous bullae"
+            ]
+        }
+    },
+    "causes": "Primary cause is long-term exposure to tobacco smoke. The toxins in smoke destroy the cilia (cleaning hairs) and damage the elastic fibers of the alveoli.",
+    "mode_of_transmission": [
+        "Inhalation of tobacco smoke",
+        "Secondhand smoke exposure"
+    ],
+    "favorable_conditions": {
+        "temperature": "Cold air can trigger bronchial spasms",
+        "humidity": "High humidity can make breathing difficult",
+        "environment": "Polluted areas or occupational exposure to dust/fumes worsen condition"
+    },
+    "severity_level": "Progressive and Irreversible",
+    "impact": {
+        "prevalence": "COPD is the 3rd leading cause of death worldwide.",
+        "socio_economic_impact": "Causes significant disability, loss of productivity, and high healthcare costs due to hospitalizations."
+    },
+    "diagnosis": {
+        "field_diagnosis": "Spirometry (breathing test)",
+        "laboratory_diagnosis": "Chest X-ray or CT scan (to see lung damage), Arterial blood gas analysis."
+    },
+    "prevention": [
+        "Smoking cessation (most critical)",
+        "Avoid secondhand smoke",
+        "Wear masks in polluted environments",
+        "Vaccinations (Flu, Pneumococcal) to prevent infections"
+    ],
+    "treatment": {
+        "medical_control": [
+            "Bronchodilators (inhalers)",
+            "Inhaled corticosteroids",
+            "Phosphodiesterase-4 inhibitors",
+            "Antibiotics (for exacerbations)",
+            "Systemic steroids"
+        ],
+        "lifestyle_control": [
+            "Quitting smoking immediately",
+            "Pulmonary rehabilitation exercises",
+            "Nutritional counseling"
+        ],
+        "supportive_care": [
+            "Oxygen therapy",
+            "Lung volume reduction surgery (severe emphysema)",
+            "Lung transplant (end-stage)"
+        ]
+    },
+    "susceptible_populations": "Long-term smokers (both active and passive), elderly individuals, people with Alpha-1 antitrypsin deficiency.",
+    "life_cycle": "Progressive decline in lung function over years/decades. Damage accumulates with every cigarette.",
+    "geographical_distribution": [
+        "Worldwide (High in regions with high smoking rates)"
+    ],
+    "image_url": "diseases/human/smoker_s_lung/images/Smoker's Lung.jpg",
+    "related_diseases": [
+        "Lung Cancer",
+        "Heart Disease",
+        "Chronic Bronchitis"
+    ],
+    "dataset_metadata": {
+        "created_by": "https://github.com/abhi-abhi86",
+        "version": "1.0",
+        "last_updated": "2026-01-26",
+        "language": "en",
+        "intended_use": "Machine learning training, research, and educational purpose"
+    }
+}

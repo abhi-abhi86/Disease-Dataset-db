@@ -1,0 +1,74 @@
+{
+    "id": "PLANT_DISEASE_TOMATO_HEALTHY_001",
+    "domain": "plant",
+    "category": "healthy_plant",
+    "name": "Tomato - Healthy",
+    "scientific_name": "Unknown",
+    "common_names": [],
+    "description": "Represents a healthy, disease-free tomato leaf. This indicates the plant is growing vigorously, free from pathogens and pests, and has access to adequate light, water, and nutrients necessary for robust growth and fruit production.",
+    "pathogen": {
+        "type": "Unknown",
+        "genus": "Unknown",
+        "species": "Unknown"
+    },
+    "affected_plants": [
+        "Tomato"
+    ],
+    "symptoms": [
+        "Leaves are a uniform, rich green color and fully expanded. The leaf surface is turgid (firm), may have a slightly fuzzy texture (due to trichomes), and is free of any spots, lesions, yellowing, or distortion. Stems are strong and new growth is active."
+    ],
+    "disease_stages": {
+        "early_stage": {
+            "description": "Healthy growth",
+            "visual_signs": [
+                "Vibrant green leaves"
+            ]
+        },
+        "middle_stage": {
+            "description": "",
+            "visual_signs": []
+        },
+        "advanced_stage": {
+            "description": "",
+            "visual_signs": []
+        }
+    },
+    "causes": "This is a healthy state, not a disease. It is 'caused' by providing optimal growing conditions.",
+    "mode_of_transmission": [],
+    "favorable_conditions": {
+        "temperature": "Unknown",
+        "humidity": "Unknown",
+        "environment": "N/A. This section is replaced by 'Key Requirements for Health'."
+    },
+    "severity_level": "None",
+    "impact": {
+        "crop_loss_percentage": "Unknown",
+        "economic_impact": "Unknown"
+    },
+    "diagnosis": {
+        "field_diagnosis": "Unknown",
+        "laboratory_diagnosis": "Unknown"
+    },
+    "prevention": [
+        "N/A. This section is replaced by 'Best Practices for Maintenance'."
+    ],
+    "treatment": {
+        "chemical_control": [
+            "N/A. The 'solution' is to maintain the best practices to keep the plant in this healthy state."
+        ],
+        "organic_control": [],
+        "cultural_control": []
+    },
+    "resistant_varieties": "Unknown",
+    "life_cycle": "Unknown",
+    "geographical_distribution": [],
+    "image_url": "diseases/plant/tomato_healthy/images/0a86ddc0-4950-4efc-9260-0f16d4db046b___RS_HL 0469.JPG",
+    "related_diseases": [],
+    "dataset_metadata": {
+        "created_by": "https://github.com/abhi-abhi86",
+        "version": "1.0",
+        "last_updated": "2026-01-26",
+        "language": "en",
+        "intended_use": "Machine learning training, research, and educational purpose"
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "id": "PLANT_DISEASE_TOMATO_TARGET_SPOT_001",
+    "domain": "plant",
+    "category": "fungal_disease",
+    "name": "Tomato Target Spot",
+    "scientific_name": "Unknown",
+    "common_names": [],
+    "description": "A fungal disease affecting tomato plants, caused by *Corynespora cassiicola*. It is identified by its characteristic 'target-like' lesions on leaves and can also infect stems and fruit, leading to defoliation and reduced yield.",
+    "pathogen": {
+        "type": "Unknown",
+        "genus": "Unknown",
+        "species": "Unknown"
+    },
+    "affected_plants": [
+        "Tomato"
+    ],
+    "symptoms": [],
+    "disease_stages": {
+        "early_stage": {
+            "description": "Begins as small, irregular, water-soaked spots, often on older, lower leaves. These spots are typically dark brown with a paler center.",
+            "visual_signs": []
+        },
+        "middle_stage": {
+            "description": "The spots enlarge, reaching up to 1-2 cm in diameter. They develop distinct dark, concentric rings, creating the classic 'target' or 'bullseye' appearance. A yellow halo may surround the lesion. The centers of the spots can dry out and fall away, creating a 'shot-hole' effect. Severe infection leads to leaf yellowing (chlorosis), death (necrosis), and significant leaf drop (defoliation), starting from the bottom of the plant and moving up. The disease can also cause similar sunken lesions on stems and fruit.",
+            "visual_signs": []
+        },
+        "advanced_stage": {
+            "description": "",
+            "visual_signs": []
+        }
+    },
+    "causes": "Caused by the fungus *Corynespora cassiicola*. The fungus survives in infected plant debris in the soil and can be seed-borne. Its spores (conidia) are spread by wind, splashing rain, overhead irrigation, and contaminated tools.",
+    "mode_of_transmission": [],
+    "favorable_conditions": {
+        "temperature": "Unknown",
+        "humidity": "Unknown",
+        "environment": "High humidity (above 80%) and long periods of leaf wetness (8-16 hours) are ideal for infection. Warm temperatures, typically between 20-30\u00b0C (68-86\u00b0F), favor disease development. Crowded plantings with poor air circulation trap humidity and increase risk."
+    },
+    "severity_level": "Unknown",
+    "impact": {
+        "crop_loss_percentage": "Unknown",
+        "economic_impact": "Unknown"
+    },
+    "diagnosis": {
+        "field_diagnosis": "Unknown",
+        "laboratory_diagnosis": "Unknown"
+    },
+    "prevention": [
+        "Use high",
+        "quality, certified disease",
+        "free seeds and transplants. Practice crop rotation with non",
+        "host crops (like corn or beans) for at least 3 years. Remove and destroy infected plant debris at the end of the season. Stake or trellis plants to improve air circulation and keep foliage off the ground. Water at the base of the plant (e.g., drip irrigation) to avoid wetting the leaves. Mulch the soil to create a barrier against spores splashing up from the soil."
+    ],
+    "treatment": {
+        "chemical_control": [
+            "Remove and destroy the first infected leaves to reduce the spread. Apply protective fungicides (e.g., chlorothalonil, mancozeb, or copper-based sprays) preventatively, especially when weather conditions are favorable for the disease. Prune lower leaves to increase airflow. Ensure good garden sanitation by cleaning tools."
+        ],
+        "organic_control": [],
+        "cultural_control": []
+    },
+    "resistant_varieties": "Unknown",
+    "life_cycle": "Unknown",
+    "geographical_distribution": [],
+    "image_url": "diseases/plant/tomato_target_spot/images/0cb83b4d-281d-4b8f-a52a-8178fa8af907___Com.G_TgS_FL 7928.JPG",
+    "related_diseases": [],
+    "dataset_metadata": {
+        "created_by": "https://github.com/abhi-abhi86",
+        "version": "1.0",
+        "last_updated": "2026-01-26",
+        "language": "en",
+        "intended_use": "Machine learning training, research, and educational purpose"
+    }
+}

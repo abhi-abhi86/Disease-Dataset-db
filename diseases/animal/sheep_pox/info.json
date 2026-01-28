@@ -1,0 +1,16 @@
+{
+    "domain": "animal",
+    "name": "Sheep Pox",
+    "description": "Sheep Pox is a highly contagious and serious viral disease of sheep that spreads very rapidly within a flock. It is characterized by high fever, severe weakness, and the development of typical pox lesions on the skin and sometimes inside the mouth, nose, and respiratory tract. The disease causes major economic losses due to high mortality in young animals, reduced growth rate, poor wool quality, permanent damage to skin, and long recovery time. In severe cases, the infection can also affect internal organs such as the lungs, leading to breathing problems and sometimes death. Because of its fast spread and serious impact, Sheep Pox is considered a notifiable and dangerous livestock disease in many countries.",
+    "image_url": "diseases/animal/sheep_pox/images/Sheep Pox.jpeg",
+    "stages": {
+        "Acute": "The disease begins suddenly with high fever, dullness, loss of appetite, and discharge from the eyes and nose. Within a few days, small red spots appear on hairless areas of the skin such as the face, ears, belly, and tail. These spots slowly develop into raised, hard, and painful nodules (pox). The animal becomes weak, may have difficulty breathing, and stops eating properly.",
+        "Chronic/Recovery": "In this stage, the skin nodules become larger, may turn necrotic, and form thick scabs. Some lesions may ulcerate and get infected by bacteria, causing bad smell and slow healing. The scabs fall off after several weeks, leaving permanent scars on the skin. Recovery is slow, and the animal remains weak and unproductive for a long time."
+    },
+    "causes": "Sheep Pox is caused by the Sheeppox virus, which belongs to the Capripoxvirus genus of the Poxviridae family. The virus is very strong and can survive for a long time in the environment, especially in dried scabs and contaminated sheds. It spreads mainly through direct contact with infected animals, inhalation of virus from nasal discharge, and through contaminated feed, water, equipment, and wounds on the skin.",
+    "risk_factors": "Lack of vaccination, overcrowding of animals, poor farm hygiene, weak immune system, stress due to transport or weather changes, and introduction of infected animals into healthy flocks without quarantine.",
+    "preventive_measures": "Regular vaccination of sheep is the most effective way to prevent the disease. Other important measures include isolating sick animals immediately, maintaining good farm hygiene, disinfecting sheds and equipment, controlling movement of animals, quarantining new animals before mixing with the flock, and proper disposal of dead animals and infected materials.",
+    "solution": "There is no specific antiviral medicine to cure Sheep Pox. Treatment is mainly supportive and aims to reduce suffering and prevent secondary infections. This includes giving antibiotics to control bacterial infections, medicines to reduce fever and pain, cleaning and dressing of skin wounds, providing soft and nutritious food, and ensuring plenty of clean drinking water and good care until the animal recovers.",
+    "report_made_by": "https://github.com/abhi-abhi86",
+    "id": "DISEASE_ANIMAL_SHEEPPOX_001"
+}
