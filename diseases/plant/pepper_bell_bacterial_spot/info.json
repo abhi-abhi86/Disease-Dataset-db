@@ -1,67 +1,108 @@
 {
     "id": "PLANT_DISEASE_BACTERIAL_SPOT_PEPPER_001",
     "domain": "plant",
-    "category": "fungal_disease",
+    "category": "bacterial_disease",
     "name": "Bacterial Spot (Pepper)",
-    "scientific_name": "Unknown",
-    "common_names": [],
+    "scientific_name": "Xanthomonas spp.",
+    "common_names": [
+        "Bacterial Spot",
+        "Black Spot"
+    ],
     "description": "A common and destructive bacterial disease that affects pepper and tomato plants. It is characterized by small, water-soaked spots on leaves, stems, and fruit, which can lead to significant defoliation, reduced yield, and unmarketable fruit.",
     "pathogen": {
-        "type": "Unknown",
-        "genus": "Unknown",
-        "species": "Unknown"
+        "type": "Bacteria",
+        "genus": "Xanthomonas",
+        "species": "Xanthomonas euvesicatoria / X. campestris pv. vesicatoria"
     },
     "affected_plants": [
-        "Pepper"
+        "Pepper (Bell, Chili)",
+        "Tomato",
+        "Nightshades"
     ],
-    "symptoms": [],
+    "symptoms": [
+        "Small, water-soaked spots on leaf undersides",
+        "Spots turn dark brown/black",
+        "Yellow halo around leaf spots",
+        "Leaves turning yellow and dropping",
+        "Raised, corky, wart-like spots on fruit"
+    ],
     "disease_stages": {
         "early_stage": {
             "description": "Begins as small (less than 3mm), dark, water-soaked, circular spots on the undersides of leaves. These spots may appear slightly raised and are often more visible when the leaf is held up to the light.",
-            "visual_signs": []
+            "visual_signs": [
+                "Water-soaked lesions on underside",
+                "Small dark specks"
+            ]
         },
         "middle_stage": {
             "description": "The leaf spots enlarge, the centers turn dark brown to black, and they are often surrounded by a distinct yellow halo. The centers may dry out and fall away, giving the leaf a 'shot-hole' appearance. On fruit, spots are initially small, raised, and scabby, eventually becoming warty and cracked. Severe infection leads to widespread leaf yellowing and leaf drop (defoliation).",
-            "visual_signs": []
+            "visual_signs": [
+                "Yellow halo",
+                "Shot-hole effect",
+                "Scabby fruit spots"
+            ]
         },
         "advanced_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Severe defoliation exposes fruit to sunscald. Fruit becomes unmarketable due to large corky lesions and secondary rots.",
+            "visual_signs": [
+                "Leafless plants",
+                "Sunscalded fruit",
+                "Rotting fruit"
+            ]
         }
     },
     "causes": "Caused by several species of bacteria in the genus *Xanthomonas* (e.g., *Xanthomonas campestris* pv. *vesicatoria*). The pathogen is easily spread by splashing water from rain or overhead irrigation, wind-driven rain, contaminated tools, and handling wet plants. It often enters the plant through natural openings (stomata).",
-    "mode_of_transmission": [],
+    "mode_of_transmission": [
+        "Splashing rain",
+        "Seed-borne",
+        "Contaminated tools"
+    ],
     "favorable_conditions": {
-        "temperature": "Unknown",
-        "humidity": "Unknown",
+        "temperature": "24°C to 30°C (75°F to 86°F)",
+        "humidity": "High humidity / Frequent rain",
         "environment": "Warm, wet, and humid conditions are ideal for the disease. High humidity (>85%) and temperatures between 24-30\u00b0C (75-86\u00b0F) strongly favor its development. Crowded plantings with poor air circulation also increase the risk and severity."
     },
-    "severity_level": "Unknown",
+    "severity_level": "High (major yield threat)",
     "impact": {
-        "crop_loss_percentage": "Unknown",
-        "economic_impact": "Unknown"
+        "crop_loss_percentage": "10% to 50%+",
+        "economic_impact": "Loss of marketability due to fruit spots. Reduced yield due to defoliation."
     },
     "diagnosis": {
-        "field_diagnosis": "Unknown",
-        "laboratory_diagnosis": "Unknown"
+        "field_diagnosis": "Look for scabby spots on fruit and water-soaked leaf spots.",
+        "laboratory_diagnosis": "Bacterial streaming, PCR, ELISA."
     },
     "prevention": [
-        "Use certified disease",
-        "free seeds and transplants. Rotate crops (avoid planting peppers or tomatoes in the same location for at least 3",
-        "4 years). Ensure good air circulation with proper plant spacing. Use drip irrigation or soaker hoses to avoid wetting foliage. Sanitize tools and hands after handling infected plants. Remove and destroy infected plant debris at the end of the season."
+        "Use certified disease-free seeds and transplants.",
+        "Rotate crops (avoid planting peppers or tomatoes in the same location for at least 3-4 years).",
+        "Ensure good air circulation with proper plant spacing.",
+        "Use drip irrigation or soaker hoses to avoid wetting foliage.",
+        "Sanitize tools and hands after handling infected plants.",
+        "Remove and destroy infected plant debris at the end of the season."
     ],
     "treatment": {
         "chemical_control": [
-            "Remove and destroy infected leaves or plants as soon as symptoms appear to reduce the spread. Avoid working in the garden when plants are wet. Apply protective sprays containing fixed copper (e.g., copper hydroxide, copper sulfate) or a combination of copper and mancozeb. These are most effective when applied preventatively or at the very first sign of disease. Biological bactericides (e.g., based on *Bacillus subtilis*) can also be used as part of an integrated management program."
+            "Remove and destroy infected leaves or plants as soon as symptoms appear to reduce the spread. Avoid working in the garden when plants are wet. Apply protective sprays containing fixed copper (e.g., copper hydroxide, copper sulfate) or a combination of copper and mancozeb. These are most effective when applied preventatively or at the very first sign of disease."
         ],
-        "organic_control": [],
-        "cultural_control": []
+        "organic_control": [
+            "Copper fungicides",
+            "Bacillus subtilis biologicals",
+            "Actigard (systemic acquired resistance inducer)"
+        ],
+        "cultural_control": [
+            "Hot water seed treatment",
+            "Mulching to reduce splash",
+            "Weed control"
+        ]
     },
-    "resistant_varieties": "Unknown",
-    "life_cycle": "Unknown",
-    "geographical_distribution": [],
+    "resistant_varieties": "Some resistance exists (e.g., 'X5R' varieties), but many races of the bacteria exist.",
+    "life_cycle": "Bacteria survive on seeds and debris. Reproduce in water films on leaves.",
+    "geographical_distribution": [
+        "Worldwide (Warm/Humid climates)"
+    ],
     "image_url": "diseases/plant/pepper_bell_bacterial_spot/images/1cce64aa-6f9f-4ce1-b319-dbc4a012b240___JR_B.Spot 8998.JPG",
-    "related_diseases": [],
+    "related_diseases": [
+        "Tomato Bacterial Spot"
+    ],
     "dataset_metadata": {
         "created_by": "https://github.com/abhi-abhi86",
         "version": "1.0",

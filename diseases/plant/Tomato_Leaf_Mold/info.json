@@ -3,63 +3,104 @@
     "domain": "plant",
     "category": "fungal_disease",
     "name": "Tomato Leaf Mold",
-    "scientific_name": "Unknown",
-    "common_names": [],
+    "scientific_name": "Passalora fulva",
+    "common_names": [
+        "Leaf Mold",
+        "Cladosporium Leaf Mold"
+    ],
     "description": "A common fungal disease of tomatoes, particularly in high-humidity environments like greenhouses, caused by *Passalora fulva*. It is characterized by yellow spots on the upper leaf surface and a velvety, olive-green mold on the corresponding underside.",
     "pathogen": {
-        "type": "Unknown",
-        "genus": "Unknown",
-        "species": "Unknown"
+        "type": "Fungus",
+        "genus": "Passalora",
+        "species": "Passalora fulva (syn. Cladosporium fulvum)"
     },
     "affected_plants": [
         "Tomato"
     ],
-    "symptoms": [],
+    "symptoms": [
+        "Pale yellow/light green spots on upper leaf surface",
+        "Velvety olive-green fungus on lower leaf surface",
+        "Leaf curling and withering",
+        "Premature leaf drop",
+        "Black rot at stem end of fruit (occasional)"
+    ],
     "disease_stages": {
         "early_stage": {
             "description": "Begins as pale green or yellowish, indefinite spots on the upper surface of older, lower leaves. The corresponding underside of the leaf may show a slight, pale gray mold.",
-            "visual_signs": []
+            "visual_signs": [
+                "Pale yellow spots (upper side)",
+                "Faint gray fuzz (underside)"
+            ]
         },
         "middle_stage": {
             "description": "The yellow spots on the upper surface enlarge and become more distinct. On the leaf underside, a dense, velvety, olive-green to brownish fungal growth (spores) develops. Severely infected leaves turn yellow, then brown, wither, die, and may fall off (defoliation), progressing up the plant. The disease can also infect blossoms and fruit.",
-            "visual_signs": []
+            "visual_signs": [
+                "Bright yellow spots",
+                "Thick olive-green mold"
+            ]
         },
         "advanced_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Widespread necrosis and defoliation. Yield is reduced due to loss of photosynthetic area. Infected flowersabort.",
+            "visual_signs": [
+                "Brown, withered leaves",
+                "Defoliated plant bases"
+            ]
         }
     },
     "causes": "Caused by the fungus *Passalora fulva* (formerly *Fulvia fulva* or *Cladosporium fulvum*). The fungus survives on infected plant debris in the soil and on greenhouse structures. Spores are easily spread by wind, splashing water, contaminated tools, and clothing.",
-    "mode_of_transmission": [],
+    "mode_of_transmission": [
+        "Airborne spores (wind)",
+        "Water splash",
+        "Contaminated tools/clothing",
+        "Insects transmitting spores"
+    ],
     "favorable_conditions": {
-        "temperature": "Unknown",
-        "humidity": "Unknown",
+        "temperature": "21°C to 24°C (70°F to 75°F)",
+        "humidity": "High humidity (>85%) is critical",
         "environment": "**High relative humidity (above 85%)** is the most critical factor for infection. Poor air circulation due to crowded planting, lack of pruning, or enclosed greenhouse environments. Long periods of leaf wetness. Moderate temperatures (18-26\u00b0C / 65-79\u00b0F) favor its development."
     },
-    "severity_level": "Unknown",
+    "severity_level": "Moderate (Common in Greenhouses)",
     "impact": {
-        "crop_loss_percentage": "Unknown",
-        "economic_impact": "Unknown"
+        "crop_loss_percentage": "10% to 50%",
+        "economic_impact": "Reduced yield and fruit quality mostly in greenhouse/tunnel production."
     },
     "diagnosis": {
-        "field_diagnosis": "Unknown",
-        "laboratory_diagnosis": "Unknown"
+        "field_diagnosis": "Look for the diagnostic velvety olive-green mold on the UNDERSIDE of yellow leaf spots.",
+        "laboratory_diagnosis": "Microscopic identification of conidia."
     },
     "prevention": [
-        "**Managing humidity and airflow is key.** Ensure wide plant spacing, stake or trellis plants, and prune lower leaves to improve circulation. Water at the base of the plant (e.g., drip irrigation) early in the day so foliage dries quickly. In greenhouses, ensure good ventilation and heating to reduce humidity. Use resistant tomato varieties. Remove and destroy all plant debris at the end of the season."
+        "**Managing humidity and airflow is key.**",
+        "Ensure wide plant spacing, stake or trellis plants, and prune lower leaves to improve circulation.",
+        "Water at the base of the plant (e.g., drip irrigation) early in the day so foliage dries quickly.",
+        "In greenhouses, ensure good ventilation and heating to reduce humidity.",
+        "Use resistant tomato varieties.",
+        "Remove and destroy all plant debris at the end of the season."
     ],
     "treatment": {
         "chemical_control": [
             "Remove and destroy infected leaves as soon as they are spotted. Apply protective fungicides (e.g., copper-based, chlorothalonil, mancozeb), ensuring thorough coverage, especially on the undersides of leaves. Fungicides are most effective when applied preventatively or at the very first sign of disease, especially when high-humidity conditions are expected."
         ],
-        "organic_control": [],
-        "cultural_control": []
+        "organic_control": [
+            "Copper sprays",
+            "Neem oil (early stages)",
+            "Calcium polysulfide (lime sulfur)"
+        ],
+        "cultural_control": [
+            "Reduce humidity (ventilation)",
+            "Increase temperature at night to prevent condensation",
+            "Sanitation"
+        ]
     },
-    "resistant_varieties": "Unknown",
-    "life_cycle": "Unknown",
-    "geographical_distribution": [],
+    "resistant_varieties": "Geronimo, Trust, Panzer, Cobra (many greenhouse varieties have resistance)",
+    "life_cycle": "Polycyclic. Spores land on leaf, germinate in high humidity, penetrate stomata. New spores produced in 10-12 days.",
+    "geographical_distribution": [
+        "Worldwide (Greenhouse regions)"
+    ],
     "image_url": "diseases/plant/tomato_leaf_mold/images/4c11a95e-122b-4e5e-a90c-cb550f8f6bb2___Crnl_L.Mold 7176.JPG",
-    "related_diseases": [],
+    "related_diseases": [
+        "Gray Mold (Botrytis)",
+        "Powdery Mildew"
+    ],
     "dataset_metadata": {
         "created_by": "https://github.com/abhi-abhi86",
         "version": "1.0",

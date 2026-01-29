@@ -3,64 +3,101 @@
     "domain": "plant",
     "category": "fungal_disease",
     "name": "Rose Black Spot",
-    "scientific_name": "Unknown",
-    "common_names": [],
+    "scientific_name": "Diplocarpon rosae",
+    "common_names": [
+        "Black Spot",
+        "Leaf Bloteh"
+    ],
     "description": "A common fungal disease of roses and other plants, caused by the fungus Diplocarpon rosae. It weakens the plant by interrupting photosynthesis and causing significant leaf drop (defoliation).",
     "pathogen": {
-        "type": "Unknown",
-        "genus": "Unknown",
-        "species": "Unknown"
+        "type": "Fungi",
+        "genus": "Diplocarpon",
+        "species": "Diplocarpon rosae"
     },
     "affected_plants": [
-        "Rose"
+        "Rose (Rosa spp.)"
     ],
-    "symptoms": [],
+    "symptoms": [
+        "Black spots with feathery margins on upper leaf surface",
+        "Yellowing (chlorosis) around spots",
+        "Premature leaf drop",
+        "Purple/red blister-like spots on stems (canes)",
+        "Reduced flowering and plant vigor"
+    ],
     "disease_stages": {
         "early_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Small black spots appear on the upper surface of leaves, usually starting at the bottom of the bush.",
+            "visual_signs": [
+                "Black specks",
+                "Feathery margins"
+            ]
         },
         "middle_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Spots enlarge (up to 1/2 inch). Tissue around spots turns yellow. Lower leaves begin to fall off.",
+            "visual_signs": [
+                "Yellow halos",
+                "Leaf drop"
+            ]
         },
         "advanced_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Complete defoliation of the plant. Fungus infects the canes, creating purple/black lesions that harbor spores for winter.",
+            "visual_signs": [
+                "Bare stems",
+                "Purple stem lesions"
+            ]
         }
     },
     "causes": "The fungus Diplocarpon rosae, whose spores are spread by water from rain splash or overhead irrigation. The fungus overwinters on infected fallen leaves and stems.",
-    "mode_of_transmission": [],
+    "mode_of_transmission": [
+        "Splashing water",
+        "Wind-blown rain",
+        "Garden tools"
+    ],
     "favorable_conditions": {
-        "temperature": "Unknown",
-        "humidity": "Unknown",
+        "temperature": "20°C to 27°C (68°F to 80°F)",
+        "humidity": "High humidity / Wet foliage (7+ hours)",
         "environment": "Warm, wet, and humid weather. Poor air circulation around the plant. Susceptible rose varieties. Overhead watering that leaves foliage wet for extended periods."
     },
-    "severity_level": "Unknown",
+    "severity_level": "Moderate (Chronic stress)",
     "impact": {
-        "crop_loss_percentage": "Unknown",
-        "economic_impact": "Unknown"
+        "crop_loss_percentage": "High aesthetic loss / Reduced vigor",
+        "economic_impact": "Major issue in ornamental horticulture. Increases maintenance costs."
     },
     "diagnosis": {
-        "field_diagnosis": "Unknown",
-        "laboratory_diagnosis": "Unknown"
+        "field_diagnosis": "Black spots with feathery edges + leaf yellowing.",
+        "laboratory_diagnosis": "Microscopic examination of acervuli."
     },
     "prevention": [
-        "Choose disease",
-        "resistant varieties. Ensure proper spacing and pruning for good air circulation. Water at the base of the plant in the morning. Remove and destroy fallen leaves and infected canes."
+        "Choose disease-resistant varieties.",
+        "Ensure proper spacing and pruning for good air circulation.",
+        "Water at the base of the plant in the morning.",
+        "Remove and destroy fallen leaves and infected canes."
     ],
     "treatment": {
         "chemical_control": [
             "Prune and dispose of infected leaves and stems. Apply a preventative fungicide early in the season. Common active ingredients in effective fungicides include Chlorothalonil, Myclobutanil, and Tebuconazole. Neem oil can also be used as a less toxic alternative."
         ],
-        "organic_control": [],
-        "cultural_control": []
+        "organic_control": [
+            "Neem oil",
+            "Sulfur sprays",
+            "Baking soda solution"
+        ],
+        "cultural_control": [
+            "Sanitation (remove fallen leaves)",
+            "Pruning to open canopy",
+            "Mulching"
+        ]
     },
-    "resistant_varieties": "Unknown",
-    "life_cycle": "Unknown",
-    "geographical_distribution": [],
+    "resistant_varieties": "Knock Out roses, Drift roses, and many modern shrub roses have high resistance.",
+    "life_cycle": "Polycyclic. Spores splash up from soil/debris to leaves. Repeat infections all season.",
+    "geographical_distribution": [
+        "Worldwide (Temperate regions)"
+    ],
     "image_url": "diseases/plant/rose_black_spot/images/download1.jpg",
-    "related_diseases": [],
+    "related_diseases": [
+        "Powdery Mildew",
+        "Rose Rust"
+    ],
     "dataset_metadata": {
         "created_by": "https://github.com/abhi-abhi86",
         "version": "1.0",

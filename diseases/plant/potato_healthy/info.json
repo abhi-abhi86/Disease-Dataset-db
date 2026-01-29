@@ -3,67 +3,96 @@
     "domain": "plant",
     "category": "healthy_plant",
     "name": "Potato - Healthy",
-    "scientific_name": "Unknown",
-    "common_names": [],
+    "scientific_name": "Solanum tuberosum",
+    "common_names": [
+        "Potato",
+        "Spud"
+    ],
     "description": "Represents a healthy, disease-free potato leaf. This indicates the plant is growing under optimal conditions, free from pathogens and pests, and has access to adequate light, water, and nutrients necessary for vigorous growth and tuber development.",
     "pathogen": {
-        "type": "Unknown",
-        "genus": "Unknown",
-        "species": "Unknown"
+        "type": "N/A",
+        "genus": "N/A",
+        "species": "N/A"
     },
     "affected_plants": [
         "Potato"
     ],
     "symptoms": [
-        "Leaves are a uniform, vibrant green color. The leaf structure is fully expanded, turgid (firm), and shows no signs of spots, lesions, discoloration, or puckering. Stems are sturdy and growth is robust."
+        "Leaves are a uniform, vibrant green color",
+        "Leaf structure is fully expanded and turgid",
+        "No signs of spots, lesions, or curling",
+        "Sturdy stems, no cankers",
+        "Vigorous growth"
     ],
     "disease_stages": {
         "early_stage": {
-            "description": "Healthy growth",
+            "description": "Emergence to vegetative growth.",
             "visual_signs": [
-                "Vibrant green leaves"
+                "Strong shoots",
+                "Green leaves"
             ]
         },
         "middle_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Flowering and tuber initiation.",
+            "visual_signs": [
+                "Flower buds",
+                "Bushy canopy"
+            ]
         },
         "advanced_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Tuber bulking and maturation. Leaves naturally yellow (senescence) at very end.",
+            "visual_signs": [
+                "Large tubers",
+                "Natural dying back"
+            ]
         }
     },
     "causes": "This is a healthy state, not a disease. It is 'caused' by providing optimal growing conditions.",
-    "mode_of_transmission": [],
+    "mode_of_transmission": [
+        "N/A"
+    ],
     "favorable_conditions": {
-        "temperature": "Unknown",
-        "humidity": "Unknown",
-        "environment": "N/A. This section is replaced by 'Key Requirements for Health'."
+        "temperature": "15°C to 20°C (60°F to 70°F) ideal for tubers",
+        "humidity": "Moderate",
+        "environment": "Full sun, loose well-drained soil (pH 5.0-6.0), consistent moisture, cool nights."
     },
     "severity_level": "None",
     "impact": {
-        "crop_loss_percentage": "Unknown",
-        "economic_impact": "Unknown"
+        "crop_loss_percentage": "None",
+        "economic_impact": "Positive - Maximize yield potential."
     },
     "diagnosis": {
-        "field_diagnosis": "Unknown",
-        "laboratory_diagnosis": "Unknown"
+        "field_diagnosis": "Uniform green color, healthy vigor.",
+        "laboratory_diagnosis": "Clean tests."
     },
     "prevention": [
-        "N/A. This section is replaced by 'Best Practices for Maintenance'."
+        "Provide optimal care: sun, soil, water.",
+        "Hilling to protect tubers.",
+        "Pest scouting."
     ],
     "treatment": {
         "chemical_control": [
-            "N/A. The 'solution' is to maintain the best practices to keep the plant in this healthy state."
+            "N/A"
         ],
-        "organic_control": [],
-        "cultural_control": []
+        "organic_control": [
+            "Compost",
+            "Cover crops"
+        ],
+        "cultural_control": [
+            "Hilling",
+            "Weeding",
+            "Irrigation management"
+        ]
     },
-    "resistant_varieties": "Unknown",
-    "life_cycle": "Unknown",
-    "geographical_distribution": [],
+    "resistant_varieties": "N/A",
+    "life_cycle": "Annual cycle: Tuber -> Sprout -> Plant -> New Tubers",
+    "geographical_distribution": [
+        "Worldwide"
+    ],
     "image_url": "diseases/plant/potato_healthy/images/31a09d39-6791-4ecb-8f44-af2ed85dbd33___RS_HL 1970.JPG",
-    "related_diseases": [],
+    "related_diseases": [
+        "None"
+    ],
     "dataset_metadata": {
         "created_by": "https://github.com/abhi-abhi86",
         "version": "1.0",

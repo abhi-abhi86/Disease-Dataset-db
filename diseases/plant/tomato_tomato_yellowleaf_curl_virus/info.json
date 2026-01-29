@@ -1,69 +1,113 @@
 {
     "id": "PLANT_DISEASE_TOMATO_YELLOW_LEAF_CURL_VIRUS_TYLCV_001",
     "domain": "plant",
-    "category": "fungal_disease",
+    "category": "viral_disease",
     "name": "Tomato Yellow Leaf Curl Virus (TYLCV)",
-    "scientific_name": "Unknown",
-    "common_names": [],
+    "scientific_name": "Tomato yellow leaf curl virus",
+    "common_names": [
+        "TYLCV",
+        "Tomato curl"
+    ],
     "description": "A highly destructive viral disease affecting tomato plants, transmitted by the silverleaf whitefly. It is characterized by severe stunting of the plant, and upward curling and yellowing of the leaves, leading to significant or total loss of fruit yield.",
     "pathogen": {
-        "type": "Unknown",
-        "genus": "Unknown",
-        "species": "Unknown"
+        "type": "Virus",
+        "genus": "Begomovirus",
+        "species": "Tomato yellow leaf curl virus"
     },
     "affected_plants": [
-        "Tomato"
+        "Tomato",
+        "Pepper",
+        "Beans",
+        "Tobacco"
     ],
-    "symptoms": [],
+    "symptoms": [
+        "Upward curling of leaf margins (cupping)",
+        "Yellowing (chlorosis) of leaf margins",
+        "Small, crumpled leaves",
+        "Severe stunting of the plant",
+        "Flower drop",
+        "Lack of fruit production"
+    ],
     "disease_stages": {
         "early_stage": {
             "description": "Often appears on new growth. Young leaves show slight yellowing (chlorosis), especially on the margins, and begin to curl upwards. The plant's growth rate may start to slow down.",
-            "visual_signs": []
+            "visual_signs": [
+                "Leaves yellowing at edges",
+                "Leaf cupping"
+            ]
         },
         "middle_stage": {
             "description": "Leaves become severely stunted, thickened, leathery, and cup strongly upwards. Leaf margins are bright yellow, often with green remaining along the veins. The entire plant becomes severely dwarfed or stunted, with shortened internodes giving it a 'bushy' appearance. Flower production is drastically reduced, and any fruit that sets is small, malformed, and unmarketable. Infection at an early stage often results in total yield loss.",
-            "visual_signs": []
+            "visual_signs": [
+                "Bushy appearance",
+                "Thick leathery leaves",
+                "Extreme curling"
+            ]
         },
         "advanced_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Total growth arrest. No fruit set. Existing fruit remains small and falls off. The plant functions as a virus reservoir.",
+            "visual_signs": [
+                "Bonsai-like plant appearance",
+                "Zero yield"
+            ]
         }
     },
-    "causes": "Caused by various species of viruses in the genus *Begomovirus* (family Geminiviridae). The virus is **not** seed-borne or mechanically transmitted; it is spread almost exclusively by the silverleaf whitefly (*Bemisia tabaci*). The whitefly acquires the virus while feeding on an infected plant and transmits it to healthy plants in a persistent manner (once infected, the whitefly can transmit the virus for life).",
-    "mode_of_transmission": [],
+    "causes": "Caused by the *Tomato yellow leaf curl virus*, a Begomovirus. It is transmitted exclusively by the whitefly *Bemisia tabaci* in a persistent manner (the insect remains infectious for life).",
+    "mode_of_transmission": [
+        "Silverleaf Whitefly (Bemisia tabaci)",
+        "Moving infected transplants",
+        "Grafting"
+    ],
     "favorable_conditions": {
-        "temperature": "Unknown",
-        "humidity": "Unknown",
+        "temperature": "Warm (> 25°C / 77°F)",
+        "humidity": "Variable",
         "environment": "High populations of the silverleaf whitefly vector. Warm, tropical, and subtropical climates where whiteflies thrive year-round. Presence of infected tomato plants or alternative weed hosts (like nightshade or mallow) that act as a virus reservoir. Planting susceptible tomato varieties."
     },
-    "severity_level": "Unknown",
+    "severity_level": "Category 1 - Severe/Critical",
     "impact": {
-        "crop_loss_percentage": "Unknown",
-        "economic_impact": "Unknown"
+        "crop_loss_percentage": "Up to 100%",
+        "economic_impact": "Major threat to tomato production globally. Can devastate entire fields if whiteflies are unchecked."
     },
     "diagnosis": {
-        "field_diagnosis": "Unknown",
-        "laboratory_diagnosis": "Unknown"
+        "field_diagnosis": "Symptom based: severe stunting, yellow leaf margins, upward cupping. Presence of whiteflies.",
+        "laboratory_diagnosis": "PCR testing, DNA hybridization."
     },
     "prevention": [
-        "Planting TYLCV",
-        "resistant or tolerant tomato varieties is the **most effective** control measure. Use certified, virus",
-        "free transplants. Control whitefly populations using yellow sticky traps, insecticidal soaps, neem oil, or appropriate chemical insecticides (rotate modes of action to prevent resistance). Use fine",
-        "mesh netting (insect",
-        "proof screens) in greenhouses or on row covers for young plants to exclude whiteflies. Remove and immediately destroy (bag and dispose) any plants showing symptoms. Implement a thorough weed control program in and around the growing area to eliminate alternative hosts."
+        "Planting TYLCV-resistant or tolerant tomato varieties is the **most effective** control measure.",
+        "Use certified, virus-free transplants.",
+        "Control whitefly populations using yellow sticky traps, insecticidal soaps, neem oil, or appropriate chemical insecticides.",
+        "Use fine-mesh netting (insect-proof screens) in greenhouses or on row covers for young plants.",
+        "Remove and immediately destroy any plants showing symptoms.",
+        "Implement a thorough weed control program."
     ],
     "treatment": {
         "chemical_control": [
-            "**There is no cure** for a plant infected with TYLCV. All management strategies must focus on prevention and controlling the whitefly vector. Once a plant is confirmed to be infected, it must be carefully removed and destroyed to prevent it from acting as a source of the virus for whiteflies to spread to other healthy plants."
+            "**There is no cure** for a plant infected with TYLCV. All management strategies must focus on prevention and controlling the whitefly vector. Insecticides like Imidacloprid (where permitted) can control vectors. Once a plant is confirmed to be infected, it must be carefully removed and destroyed."
         ],
-        "organic_control": [],
-        "cultural_control": []
+        "organic_control": [
+            "Neem oil (vector control)",
+            "Insecticidal soap (vector control)",
+            "Reflective mulches (repel whiteflies)"
+        ],
+        "cultural_control": [
+            "Roguing (removal of infected plants)",
+            "Weed host removal",
+            "Crop-free periods"
+        ]
     },
-    "resistant_varieties": "Unknown",
-    "life_cycle": "Unknown",
-    "geographical_distribution": [],
+    "resistant_varieties": "Tycoon, Tygress, Premio, Security (look for 'Ty' gene resistance)",
+    "life_cycle": "Cyclical via whitefly vector. Virus replicates in plant phloem cells.",
+    "geographical_distribution": [
+        "Mediterranean",
+        "Middle East",
+        "Africa",
+        "Americas (Tropical/Subtropical)"
+    ],
     "image_url": "diseases/plant/tomato_tomato_yellowleaf_curl_virus/images/0fada544-d797-4168-bbf4-4f9dcfd24ec8___YLCV_NREC 1993.JPG",
-    "related_diseases": [],
+    "related_diseases": [
+        "Tomato Curly Stunt Virus",
+        "Tomato Leaf Curl Virus"
+    ],
     "dataset_metadata": {
         "created_by": "https://github.com/abhi-abhi86",
         "version": "1.0",

@@ -1,65 +1,110 @@
 {
     "id": "PLANT_DISEASE_TOMATO_TWO_SPOTTED_SPIDER_MITE_001",
     "domain": "plant",
-    "category": "fungal_disease",
+    "category": "pest_infestation",
     "name": "Tomato - Two-spotted Spider Mite",
-    "scientific_name": "Unknown",
-    "common_names": [],
+    "scientific_name": "Tetranychus urticae",
+    "common_names": [
+        "Spider Mite",
+        "Red Spider Mite"
+    ],
     "description": "A common and highly destructive plant pest, not an insect but an arachnid (mite). These tiny pests feed by piercing plant cells and sucking out their contents, causing a characteristic stippling on leaves, which can lead to severe plant stress, defoliation, and reduced yield.",
     "pathogen": {
-        "type": "Unknown",
-        "genus": "Unknown",
-        "species": "Unknown"
+        "type": "Arachnid (Mite)",
+        "genus": "Tetranychus",
+        "species": "Tetranychus urticae"
     },
     "affected_plants": [
-        "Tomato"
+        "Tomato",
+        "Cucumber",
+        "Melon",
+        "Beans",
+        "Many others"
     ],
-    "symptoms": [],
+    "symptoms": [
+        "Tiny yellow or white speckles (stippling) on leaves",
+        "Fine silky webbing on leaf undersides and stems",
+        "Leaves turning yellow, bronze, or gray",
+        "Premature leaf drop",
+        "Stunted growth"
+    ],
     "disease_stages": {
         "early_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Light stippling on the upperside of leaves. Small colonies of mites and eggs visible on undersides (requires magnification).",
+            "visual_signs": [
+                "Faint yellow specks",
+                "Dusty appearance"
+            ]
         },
         "middle_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Stippling becomes obvious. Leaves turn dull green or bronze. Fine webbing becomes visible, especially near leaf axils and growing tips.",
+            "visual_signs": [
+                "Bronzing leaves",
+                "Visible webbing",
+                "Leaf curling"
+            ]
         },
         "advanced_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Heavy webbing covers the plant ('tents'). Leaves turn brown and crisp, then fall off. Plant vitality is severely compromised, potentially leading to death.",
+            "visual_signs": [
+                "Thick webbing",
+                "Defoliation",
+                "Plant death"
+            ]
         }
     },
-    "causes": "",
-    "mode_of_transmission": [],
+    "causes": "Infestation by *Tetranychus urticae*. Mites disperse via wind, crawling between touching plants, or via humans/tools.",
+    "mode_of_transmission": [
+        "Wind ('ballooning')",
+        "Crawling",
+        "Clothing/Tools",
+        "Transplanting infested seedlings"
+    ],
     "favorable_conditions": {
-        "temperature": "Unknown",
-        "humidity": "Unknown",
+        "temperature": "Hot (> 27°C / 80°F)",
+        "humidity": "Low / Dry (< 50% RH)",
         "environment": "**Hot, dry, and dusty conditions** are ideal for spider mite outbreaks. Low humidity, drought-stressed plants, and the overuse of broad-spectrum insecticides (which kill off their natural predators like ladybugs and predatory mites) strongly favor their rapid multiplication."
     },
-    "severity_level": "Unknown",
+    "severity_level": "High (Rapid population explosion)",
     "impact": {
-        "crop_loss_percentage": "Unknown",
-        "economic_impact": "Unknown"
+        "crop_loss_percentage": "15% to 100%",
+        "economic_impact": "Reduced yield, cosmetic damage to fruit (gold fleck), cost of control."
     },
     "diagnosis": {
-        "field_diagnosis": "Unknown",
-        "laboratory_diagnosis": "Unknown"
+        "field_diagnosis": "Shake leaves over white paper to see moving 'dust' specs. Check for webbing.",
+        "laboratory_diagnosis": "Microscopic ID of adult mites (eight legs, two dark spots)."
     },
     "prevention": [
-        "Maintain adequate plant hydration; spider mites thrive on stressed plants. Regularly spray plants with water, focusing on the undersides of leaves, to increase humidity and dislodge mites. Encourage natural predators. Inspect new plants thoroughly before introducing them to your garden."
+        "Maintain adequate plant hydration; spider mites thrive on stressed plants.",
+        "Regularly spray plants with water, focusing on the undersides of leaves, to increase humidity and dislodge mites.",
+        "Encourage natural predators.",
+        "Inspect new plants thoroughly before introducing them to your garden."
     ],
     "treatment": {
         "chemical_control": [
             "For mild infestations, a strong blast of water can be effective. Apply insecticidal soap or horticultural oil (like neem oil), ensuring **thorough coverage** of the entire plant, especially the undersides of leaves. Repeat applications every 5-7 days to control newly hatched mites. For severe cases, releasing predatory mites (*Phytoseiulus persimilis*) is an effective biological control, or specific chemical miticides can be used (rotate products to prevent resistance)."
         ],
-        "organic_control": [],
-        "cultural_control": []
+        "organic_control": [
+            "Horticultural oils (Neem, Rosemary)",
+            "Insecticidal soaps",
+            "Predatory mites (Phytoseiulus persimilis)"
+        ],
+        "cultural_control": [
+            "Dust control (pathways)",
+            "Weed removal",
+            "Misting plants"
+        ]
     },
-    "resistant_varieties": "Unknown",
-    "life_cycle": "Unknown",
-    "geographical_distribution": [],
+    "resistant_varieties": "Some cultivars show tolerance (e.g., highly trichomed leaves)",
+    "life_cycle": "Very rapid in heat. Egg to adult in as little as 5 days. Many generations per season.",
+    "geographical_distribution": [
+        "Worldwide"
+    ],
     "image_url": "diseases/plant/tomato_spider_mites_two_spotted_spider_mite/images/0d6a202a-046f-47b2-beec-cc6a1e7deae6___Com.G_SpM_FL 8937.JPG",
-    "related_diseases": [],
+    "related_diseases": [
+        "Broad Mite damage",
+        "Russet Mite damage"
+    ],
     "dataset_metadata": {
         "created_by": "https://github.com/abhi-abhi86",
         "version": "1.0",

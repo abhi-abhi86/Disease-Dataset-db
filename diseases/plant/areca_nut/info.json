@@ -2,62 +2,102 @@
     "id": "PLANT_DISEASE_KOLEROGA_001",
     "domain": "plant",
     "category": "fungal_disease",
-    "name": "Koleroga",
-    "scientific_name": "Unknown",
-    "common_names": [],
+    "name": "Koleroga (Fruit Rot)",
+    "scientific_name": "Phytophthora arecae",
+    "common_names": [
+        "Koleroga",
+        "Mahali",
+        "Fruit Rot of Arecanut"
+    ],
     "description": "Koleroga, or Fruit Rot, is a severe fungal disease affecting areca nut bunches, primarily during the heavy rainfall of the monsoon season. It leads to the rotting of nuts and can cause complete crop loss if not managed.",
     "pathogen": {
-        "type": "Unknown",
-        "genus": "Unknown",
-        "species": "Unknown"
+        "type": "Oomycete",
+        "genus": "Phytophthora",
+        "species": "Phytophthora arecae"
     },
-    "affected_plants": [],
-    "symptoms": [],
+    "affected_plants": [
+        "Areca Nut (Betel Nut)"
+    ],
+    "symptoms": [
+        "Water-soaked lesions on the base of young nuts",
+        "Nuts lose natural green color and turn dark green/brown",
+        "Heavy shedding (fall) of immature nuts",
+        "Fungal growth (white felt) on fallen nuts",
+        "Rotting of the bunch stalk"
+    ],
     "disease_stages": {
         "early_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Water-soaked areas developed on the surface of nuts towards the base (calyx region). Nuts lose their luster.",
+            "visual_signs": [
+                "Dark green spots",
+                "Loss of shine"
+            ]
         },
         "middle_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Infection spreads to the entire nut. Nuts detach from the bunch and fall in large numbers. White fungal mycelial mat may be seen on the fallen nuts/bunch.",
+            "visual_signs": [
+                "Mass nut drop",
+                "White fuzz on nuts"
+            ]
         },
         "advanced_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "The infection spreads to the crown of the tree (crown rot), leading to the death of the entire palm if untreated.",
+            "visual_signs": [
+                "Crown rot",
+                "Tree death"
+            ]
         }
     },
     "causes": "The disease is caused by the oomycete (water mold) pathogen Phytophthora arecae. The pathogen thrives and spreads through rainwater splash during periods of high humidity and continuous rainfall.",
-    "mode_of_transmission": [],
+    "mode_of_transmission": [
+        "Rain splash",
+        "Wind-blown rain"
+    ],
     "favorable_conditions": {
-        "temperature": "Unknown",
-        "humidity": "Unknown",
+        "temperature": "20°C to 25°C (68°F to 77°F)",
+        "humidity": "High (>90%) for prolonged periods",
         "environment": "Continuous and heavy rainfall during the South-West monsoon. High humidity (>90%) and moderate temperatures. Poor drainage in the plantation. Overcrowded gardens with poor air circulation. Presence of infected debris from the previous season."
     },
-    "severity_level": "Unknown",
+    "severity_level": "Severe (Major epidemic potential)",
     "impact": {
-        "crop_loss_percentage": "Unknown",
-        "economic_impact": "Unknown"
+        "crop_loss_percentage": "50% to 90% if untreated",
+        "economic_impact": "Devastating for areca nut farmers in monsoon regions."
     },
     "diagnosis": {
-        "field_diagnosis": "Unknown",
-        "laboratory_diagnosis": "Unknown"
+        "field_diagnosis": "Heavy shedding of unripe nuts during monsoon. Rotting smell.",
+        "laboratory_diagnosis": "Microscopic ID of Phytophthora sporangia."
     },
     "prevention": [
-        "Practice field sanitation by removing and destroying all fallen nuts and infected bunches after harvest. Ensure proper drainage in the garden to avoid waterlogging. Before the onset of the monsoon, spray the bunches with 1% Bordeaux mixture as a prophylactic measure. Cover healthy bunches with protective polythene sleeves or areca leaf caps ('Kotte') to shield them from rain."
+        "Practice field sanitation by removing and destroying all fallen nuts and infected bunches after harvest.",
+        "Ensure proper drainage in the garden to avoid waterlogging.",
+        "Before the onset of the monsoon, spray the bunches with 1% Bordeaux mixture as a prophylactic measure.",
+        "Cover healthy bunches with protective polythene sleeves or areca leaf caps ('Kotte') to shield them from rain."
     ],
     "treatment": {
         "chemical_control": [
             "Spray the bunches with 1% Bordeaux mixture or other recommended copper-based fungicides. The first spray should be applied just before the monsoon begins. A second or third spray may be necessary at 40-day intervals if the rain persists. Remove and burn any infected bunches as soon as they are noticed to prevent the spread of the disease."
         ],
-        "organic_control": [],
-        "cultural_control": []
+        "organic_control": [
+            "Bordeaux mixture (allowed in some organic standards)",
+            "Phytosanitation"
+        ],
+        "cultural_control": [
+            "Kotte (covering bunches)",
+            "Widening spacing",
+            "Drainage improvement"
+        ]
     },
-    "resistant_varieties": "Unknown",
-    "life_cycle": "Unknown",
-    "geographical_distribution": [],
+    "resistant_varieties": "None commercially available with high resistance.",
+    "life_cycle": "Pathogen overwinters in tree tops or debris. Activates with monsoon rains.",
+    "geographical_distribution": [
+        "India (Karnataka, Kerala)",
+        "Sri Lanka"
+    ],
     "image_url": "diseases/plant/areca_nut/images/PHOTO-2025-10-16-11-17-21.jpg",
-    "related_diseases": [],
+    "related_diseases": [
+        "Bud Rot",
+        "Anaberoga"
+    ],
     "dataset_metadata": {
         "created_by": "https://github.com/abhi-abhi86",
         "version": "1.0",

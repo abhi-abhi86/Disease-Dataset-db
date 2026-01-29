@@ -3,47 +3,75 @@
     "domain": "plant",
     "category": "fungal_disease",
     "name": "Potato Early Blight",
-    "scientific_name": "Unknown",
-    "common_names": [],
+    "scientific_name": "Alternaria solani",
+    "common_names": [
+        "Early Blight",
+        "Target Spot"
+    ],
     "description": "A common fungal disease of potato and tomato plants caused by the fungus *Alternaria solani*. It is characterized by distinctive 'target-spot' or 'bullseye' lesions on leaves, which can lead to premature defoliation, reduced tuber size, and significant yield loss.",
     "pathogen": {
-        "type": "Unknown",
-        "genus": "Unknown",
-        "species": "Unknown"
+        "type": "Fungi",
+        "genus": "Alternaria",
+        "species": "Alternaria solani"
     },
     "affected_plants": [
-        "Potato"
+        "Potato",
+        "Tomato",
+        "Eggplant",
+        "Peppers"
     ],
-    "symptoms": [],
+    "symptoms": [
+        "Small black/brown spots on older leaves",
+        "Concentric rings (bullseye pattern) in spots",
+        "Yellow halo around lesions",
+        "Premature leaf drop (defoliation)",
+        "Dark, sunken lesions on tubers",
+        "Stem lesions"
+    ],
     "disease_stages": {
         "early_stage": {
             "description": "Begins as small, dark brown to black, circular or irregular spots on the older, lower leaves. These spots are often overlooked and may appear as simple flecks.",
-            "visual_signs": []
+            "visual_signs": [
+                "Small dark specks",
+                "Lower leaves affected first"
+            ]
         },
         "middle_stage": {
             "description": "The spots enlarge and develop characteristic concentric rings, resembling a 'target-board' or 'bullseye'. A yellow halo may form around the lesion. Lesions can merge (coalesce), covering large areas of the leaf. Severely infected leaves turn yellow, become necrotic, and die, but often remain attached to the plant.",
-            "visual_signs": []
+            "visual_signs": [
+                "Target-board spots",
+                "Yellowing leaves"
+            ]
         },
         "advanced_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Severe defoliation occurs. The fungus may infect the tubers, causing dark, sunken, irregular lesions with a raised margin. Tuber flesh underlying the lesion is dry, leathery, and brown.",
+            "visual_signs": [
+                "Leafless stems",
+                "Sunken tuber spots",
+                "Dry rot"
+            ]
         }
     },
     "causes": "Caused by the fungus *Alternaria solani*. The fungus survives the winter in infected plant debris left in the field, in the soil, and on infected tubers. Spores (conidia) are produced and spread to healthy plants by wind, splashing rain, and overhead irrigation.",
-    "mode_of_transmission": [],
+    "mode_of_transmission": [
+        "Wind-blown spores",
+        "Splashing rain",
+        "Infected seed tubers",
+        "Plant debris"
+    ],
     "favorable_conditions": {
-        "temperature": "Unknown",
-        "humidity": "Unknown",
+        "temperature": "24°C to 29°C (75°F to 85°F)",
+        "humidity": "High humidity / Alternating wet-dry",
         "environment": "Key risk factors include: warm (75-85\u00b0F or 24-29\u00b0C), humid weather with frequent rainfall, heavy dews, or overhead irrigation. The disease thrives in conditions with alternating wet and dry periods. Plant stress from poor nutrition (especially low nitrogen), drought, insect damage, or other diseases makes the plant more susceptible. It typically appears on plants as they mature, especially after flowering."
     },
-    "severity_level": "Unknown",
+    "severity_level": "Moderate to Severe",
     "impact": {
-        "crop_loss_percentage": "Unknown",
-        "economic_impact": "Unknown"
+        "crop_loss_percentage": "20% to 30% (can be higher)",
+        "economic_impact": "Reduced yield due to foliage loss. Tuber infection reduces marketability and storage life."
     },
     "diagnosis": {
-        "field_diagnosis": "Unknown",
-        "laboratory_diagnosis": "Unknown"
+        "field_diagnosis": "Look for concentric rings in brown spots on lower leaves.",
+        "laboratory_diagnosis": "Microscopic examination of spores (club-shaped conidia)."
     },
     "prevention": [
         "Use certified disease-free seed tubers to avoid introducing the pathogen.",
@@ -57,14 +85,27 @@
         "chemical_control": [
             "Monitor plants regularly, especially older leaves, for first signs of infection. Remove and destroy infected leaves to reduce the spread. Apply protective fungicides (e.g., chlorothalonil, mancozeb, copper-based products, or azoxystrobin) before the disease appears or at the very first sign of symptoms, especially when weather conditions are favorable. It is crucial to rotate fungicides with different modes of action to prevent fungal resistance."
         ],
-        "organic_control": [],
-        "cultural_control": []
+        "organic_control": [
+            "Copper fungicides",
+            "Bacillus subtilis preparations",
+            "Neem oil (minor effect)"
+        ],
+        "cultural_control": [
+            "Harvest when vines are completely dry/dead",
+            "Minimize tuber bruising",
+            "Store in cool, dry conditions"
+        ]
     },
-    "resistant_varieties": "Unknown",
-    "life_cycle": "Unknown",
-    "geographical_distribution": [],
+    "resistant_varieties": "Some tolerance (e.g., 'Kennebec', 'Sequoya'). Resistance is not immunity.",
+    "life_cycle": "Polycyclic. Spores produced on debris/lesions infect new tissue repeatedly.",
+    "geographical_distribution": [
+        "Worldwide"
+    ],
     "image_url": "diseases/plant/potato_early_blight/images/1b4304a9-88c2-4c09-bfea-830fa162a35a___RS_Early.B 7188.JPG",
-    "related_diseases": [],
+    "related_diseases": [
+        "Tomato Early Blight",
+        "Brown Spot (Alternaria alternata)"
+    ],
     "dataset_metadata": {
         "created_by": "https://github.com/abhi-abhi86",
         "version": "1.0",

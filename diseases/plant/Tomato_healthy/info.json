@@ -3,67 +3,95 @@
     "domain": "plant",
     "category": "healthy_plant",
     "name": "Tomato - Healthy",
-    "scientific_name": "Unknown",
-    "common_names": [],
+    "scientific_name": "Solanum lycopersicum",
+    "common_names": [
+        "Tomato",
+        "Love Apple"
+    ],
     "description": "Represents a healthy, disease-free tomato leaf. This indicates the plant is growing vigorously, free from pathogens and pests, and has access to adequate light, water, and nutrients necessary for robust growth and fruit production.",
     "pathogen": {
-        "type": "Unknown",
-        "genus": "Unknown",
-        "species": "Unknown"
+        "type": "N/A",
+        "genus": "N/A",
+        "species": "N/A"
     },
     "affected_plants": [
         "Tomato"
     ],
     "symptoms": [
-        "Leaves are a uniform, rich green color and fully expanded. The leaf surface is turgid (firm), may have a slightly fuzzy texture (due to trichomes), and is free of any spots, lesions, yellowing, or distortion. Stems are strong and new growth is active."
+        "Leaves are a uniform, rich green color and fully expanded.",
+        "The leaf surface is turgid (firm), may have a slightly fuzzy texture (due to trichomes).",
+        "Free of any spots, lesions, yellowing, or distortion.",
+        "Stems are strong and new growth is active."
     ],
     "disease_stages": {
         "early_stage": {
-            "description": "Healthy growth",
+            "description": "Vigorous seedling/vegetative growth.",
             "visual_signs": [
-                "Vibrant green leaves"
+                "Vibrant green leaves",
+                "Strong stem"
             ]
         },
         "middle_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Robust flowering and fruit set.",
+            "visual_signs": [
+                "Healthy flowers",
+                "Developing fruit"
+            ]
         },
         "advanced_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Maturing fruit, senescence can be natural but plant remains disease-free.",
+            "visual_signs": [
+                "Red ripening fruit",
+                "Natural aging"
+            ]
         }
     },
     "causes": "This is a healthy state, not a disease. It is 'caused' by providing optimal growing conditions.",
-    "mode_of_transmission": [],
+    "mode_of_transmission": [
+        "N/A"
+    ],
     "favorable_conditions": {
-        "temperature": "Unknown",
-        "humidity": "Unknown",
-        "environment": "N/A. This section is replaced by 'Key Requirements for Health'."
+        "temperature": "18°C to 29°C (65°F to 85°F)",
+        "humidity": "Moderate (40-60%)",
+        "environment": "Full sun (6-8 hours), well-drained fertile soil (pH 6.0-6.8), consistent moisture, balanced fertilization."
     },
     "severity_level": "None",
     "impact": {
-        "crop_loss_percentage": "Unknown",
-        "economic_impact": "Unknown"
+        "crop_loss_percentage": "None",
+        "economic_impact": "Positive - Maximize yield potential."
     },
     "diagnosis": {
-        "field_diagnosis": "Unknown",
-        "laboratory_diagnosis": "Unknown"
+        "field_diagnosis": "Uniform green color, absence of spots/wilting/pests.",
+        "laboratory_diagnosis": "Clean diagnostic tests."
     },
     "prevention": [
-        "N/A. This section is replaced by 'Best Practices for Maintenance'."
+        "Provide optimal care: sun, soil, water.",
+        "Regular monitoring.",
+        "Good hygiene."
     ],
     "treatment": {
         "chemical_control": [
-            "N/A. The 'solution' is to maintain the best practices to keep the plant in this healthy state."
+            "N/A"
         ],
-        "organic_control": [],
-        "cultural_control": []
+        "organic_control": [
+            "Compost tea (boost health)",
+            "Seaweed extract"
+        ],
+        "cultural_control": [
+            "Pruning suckers",
+            "Staking/Trellising",
+            "Mulching"
+        ]
     },
-    "resistant_varieties": "Unknown",
-    "life_cycle": "Unknown",
-    "geographical_distribution": [],
+    "resistant_varieties": "N/A",
+    "life_cycle": "Annual cycle: Seed -> Vegetative -> Flowering -> Fruit -> Senescence",
+    "geographical_distribution": [
+        "Worldwide"
+    ],
     "image_url": "diseases/plant/tomato_healthy/images/0a86ddc0-4950-4efc-9260-0f16d4db046b___RS_HL 0469.JPG",
-    "related_diseases": [],
+    "related_diseases": [
+        "None"
+    ],
     "dataset_metadata": {
         "created_by": "https://github.com/abhi-abhi86",
         "version": "1.0",

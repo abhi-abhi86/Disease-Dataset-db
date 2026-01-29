@@ -3,67 +3,96 @@
     "domain": "plant",
     "category": "healthy_plant",
     "name": "Pepper (Bell) - Healthy",
-    "scientific_name": "Unknown",
-    "common_names": [],
+    "scientific_name": "Capsicum annuum",
+    "common_names": [
+        "Bell Pepper",
+        "Sweet Pepper"
+    ],
     "description": "Represents a healthy, disease-free bell pepper leaf. This is the ideal state of the plant, indicating it has adequate nutrients, water, and sunlight, and is free from pathogens and pests.",
     "pathogen": {
-        "type": "Unknown",
-        "genus": "Unknown",
-        "species": "Unknown"
+        "type": "N/A",
+        "genus": "N/A",
+        "species": "N/A"
     },
     "affected_plants": [
         "Pepper"
     ],
     "symptoms": [
-        "Leaves are uniformly green (ranging from bright to deep green depending on age and variety), firm, and turgid. The leaf surface is smooth and may have a slight natural gloss. Veins are clear with no discoloration."
+        "Leaves are uniformly green, firm, and turgid",
+        "Smooth leaf surface with natural gloss",
+        "Clear veins without discoloration",
+        "Sturdy stems",
+        "Vigorous growth"
     ],
     "disease_stages": {
         "early_stage": {
-            "description": "Healthy growth",
+            "description": "Healthy seedling establishment.",
             "visual_signs": [
-                "Vibrant green leaves"
+                "Green cotyledons",
+                "True leaves"
             ]
         },
         "middle_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Vegetative growth and flowering.",
+            "visual_signs": [
+                "Bushy plant",
+                "White flowers"
+            ]
         },
         "advanced_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Fruit set and maturation.",
+            "visual_signs": [
+                "Green/Red/Yellow fruit",
+                "Full canopy"
+            ]
         }
     },
     "causes": "This is a healthy state, not a disease. It is 'caused' by providing optimal growing conditions.",
-    "mode_of_transmission": [],
+    "mode_of_transmission": [
+        "N/A"
+    ],
     "favorable_conditions": {
-        "temperature": "Unknown",
-        "humidity": "Unknown",
-        "environment": "N/A. This section is replaced by 'Key Requirements for Health'."
+        "temperature": "21°C to 29°C (70°F to 85°F)",
+        "humidity": "Moderate",
+        "environment": "Full sun, warm soil, consistent moisture, well-drained fertile soil."
     },
     "severity_level": "None",
     "impact": {
-        "crop_loss_percentage": "Unknown",
-        "economic_impact": "Unknown"
+        "crop_loss_percentage": "None",
+        "economic_impact": "Positive - High quality yield."
     },
     "diagnosis": {
-        "field_diagnosis": "Unknown",
-        "laboratory_diagnosis": "Unknown"
+        "field_diagnosis": "Green, vibrant, pest-free.",
+        "laboratory_diagnosis": "Clean tests."
     },
     "prevention": [
-        "N/A. This section is replaced by 'Best Practices for Maintenance'."
+        "Provide optimal care: sun, soil, water.",
+        "Regular scouting.",
+        "Balanced fertilization."
     ],
     "treatment": {
         "chemical_control": [
-            "N/A. The 'solution' is to maintain the best practices to keep the plant in this healthy state."
+            "N/A"
         ],
-        "organic_control": [],
-        "cultural_control": []
+        "organic_control": [
+            "Compost",
+            "Mulch"
+        ],
+        "cultural_control": [
+            "Pruning",
+            "Staking",
+            "Weeding"
+        ]
     },
-    "resistant_varieties": "Unknown",
-    "life_cycle": "Unknown",
-    "geographical_distribution": [],
+    "resistant_varieties": "N/A",
+    "life_cycle": "Annual/Perennial (usually grown as annual)",
+    "geographical_distribution": [
+        "Worldwide"
+    ],
     "image_url": "diseases/plant/pepper_bell_healthy/images/1d6e01ff-affd-4867-895d-fb82b6b0dce3___JR_HL 7952.JPG",
-    "related_diseases": [],
+    "related_diseases": [
+        "None"
+    ],
     "dataset_metadata": {
         "created_by": "https://github.com/abhi-abhi86",
         "version": "1.0",

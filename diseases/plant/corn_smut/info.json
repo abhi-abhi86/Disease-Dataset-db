@@ -3,64 +3,106 @@
     "domain": "plant",
     "category": "fungal_disease",
     "name": "Corn Smut",
-    "scientific_name": "Unknown",
-    "common_names": [],
+    "scientific_name": "Ustilago maydis",
+    "common_names": [
+        "Common Smut",
+        "Boil Smut",
+        "Huitlacoche (edible stage)"
+    ],
     "description": "A fungal disease affecting maize (corn), caused by Ustilago maydis. It produces large, swollen galls on ears, leaves, stems, and tassels, which later burst and release black, powdery spores, severely reducing crop quality and yield.",
     "pathogen": {
-        "type": "Unknown",
-        "genus": "Unknown",
-        "species": "Unknown"
+        "type": "Fungi",
+        "genus": "Ustilago",
+        "species": "Ustilago maydis"
     },
     "affected_plants": [
-        "Corn"
+        "Corn (Maize)",
+        "Teosinte"
     ],
-    "symptoms": [],
+    "symptoms": [
+        "Large, white/grey swollen galls (tumors) on ears, stalks, leaves, or tassels",
+        "Galls darken and burst, releasing black powdery spores",
+        "Stunted growth",
+        "Chlorosis (yellowing) around infection sites",
+        "Reduced kernel development"
+    ],
     "disease_stages": {
         "early_stage": {
             "description": "Appears as small, light-colored swellings or bumps on young corn tissues such as leaves, stems, or ears. These swellings slowly increase in size over time.",
-            "visual_signs": []
+            "visual_signs": [
+                "Small white bumps",
+                "Swollen tissue"
+            ]
         },
         "middle_stage": {
             "description": "The swellings grow into large galls filled with black, powdery fungal spores. The outer covering of the gall breaks open and releases spores into the air, which spreads the disease to other plants.",
-            "visual_signs": []
+            "visual_signs": [
+                "Large grey/white galls",
+                "Black interior forming"
+            ]
         },
         "advanced_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Galls rupture, releasing masses of black soot-like spores (teliospores). The plant tissue is destroyed.",
+            "visual_signs": [
+                "Burst galls",
+                "Black spore clouds",
+                "Destroyed ears"
+            ]
         }
     },
     "causes": "Caused by the fungus Ustilago maydis. The spores can survive in soil and plant waste for a long time. The fungus enters the plant through wounds caused by insects, farming tools, wind damage, or natural openings of the plant.",
-    "mode_of_transmission": [],
+    "mode_of_transmission": [
+        "Wind-blown spores",
+        "Rain splash",
+        "Insect vectors",
+        "Contaminated manure"
+    ],
     "favorable_conditions": {
-        "temperature": "Unknown",
-        "humidity": "Unknown",
-        "environment": "Warm weather, moderate humidity, and injured plants increase the chance of infection. Damage caused by insects, hail, or mechanical work in the field makes it easier for the fungus to enter. Too much nitrogen fertilizer also increases the risk of disease."
+        "temperature": "26°C to 34°C (79°F to 93°F)",
+        "humidity": "Moderate to High",
+        "environment": "Warm weather, moderate humidity, and injured plants increase the chance of infection. Damage caused by insects, hail, or mechanical work in the field makes it easier for the fungus to enter. Too much nitrogen fertilizer also increases the risk of disease. Drought stress followed by rain can also trigger it."
     },
-    "severity_level": "Unknown",
+    "severity_level": "Moderate (Quality loss)",
     "impact": {
-        "crop_loss_percentage": "Unknown",
-        "economic_impact": "Unknown"
+        "crop_loss_percentage": "Up to 10% (usually localized)",
+        "economic_impact": "Reduces grain yield. However, 'Huitlacoche' galls are a delicacy in some cuisines and can be sold at a premium."
     },
     "diagnosis": {
-        "field_diagnosis": "Unknown",
-        "laboratory_diagnosis": "Unknown"
+        "field_diagnosis": "Unmistakable large grey/black galls.",
+        "laboratory_diagnosis": "Microscopic ID of teliospores."
     },
     "prevention": [
-        "Use disease",
-        "resistant corn varieties whenever possible. Avoid injuring plants during farming activities such as weeding and ploughing. Control insect pests because they create wounds on the plant that help the fungus to enter. Remove and destroy infected plant parts and old crop waste after harvesting. Follow crop rotation and do not grow corn in the same field every year. Use balanced fertilizer and avoid using too much nitrogen. Keep the field clean and maintain good farm hygiene to reduce the number of fungal spores in the soil."
+        "Use disease-resistant corn varieties whenever possible.",
+        "Avoid injuring plants during farming activities such as weeding and ploughing.",
+        "Control insect pests because they create wounds on the plant.",
+        "Remove and destroy infected plant parts and old crop waste after harvesting.",
+        "Follow crop rotation and do not grow corn in the same field every year.",
+        "Use balanced fertilizer and avoid using too much nitrogen."
     ],
     "treatment": {
         "chemical_control": [
-            "There is no direct chemical cure for Corn Smut once the plant is infected. The best control method is early detection and removal. Infected galls should be removed and destroyed before they burst and spread spores. Heavily infected plants should be uprooted and destroyed. The field should be cleaned after harvesting to remove all infected plant remains. In the next season, farmers should plant resistant varieties and follow crop rotation. Proper care of the crop, good nutrition management, and insect control help to reduce future infections and protect healthy plants."
+            "There is no direct chemical cure for Corn Smut once the plant is infected. Seed treatments (fungicides) can help protect seedlings but are not effective against later infections."
         ],
-        "organic_control": [],
-        "cultural_control": []
+        "organic_control": [
+            "Manual removal of galls before they burst",
+            "Neem oil (for insect control to reduce wounds)"
+        ],
+        "cultural_control": [
+            "Avoid mechanical injury",
+            "Balanced Nitrogen fertilization",
+            "Crop rotation (3+ years)"
+        ]
     },
-    "resistant_varieties": "Unknown",
-    "life_cycle": "Unknown",
-    "geographical_distribution": [],
+    "resistant_varieties": "Some field corn hybrids have resistance. Sweet corn is generally more susceptible.",
+    "life_cycle": "Teliospores overwinter in soil -> infect young tissue -> form galls -> release spores.",
+    "geographical_distribution": [
+        "Worldwide (wherever corn is grown)"
+    ],
     "image_url": "diseases/plant/corn_smut/images/images-3.jpeg",
-    "related_diseases": [],
+    "related_diseases": [
+        "Head Smut",
+        "Common Rust"
+    ],
     "dataset_metadata": {
         "created_by": "https://github.com/abhi-abhi86",
         "version": "1.0",
