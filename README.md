@@ -1,39 +1,107 @@
-# Disease-Dataset-db
-A comprehensive dataset for disease analysis across multiple species. Designed for machine learning, veterinary pathology, and automated classification. Includes structured data optimized for AI model training, comparative health studies, and agricultural research using TensorFlow or PyTorch
+# Disease Dataset Database
 
-## Dataset Contents
+A comprehensive dataset for disease analysis across multiple species (Plant, Animal, Human). Designed for machine learning, veterinary pathology, and automated classification. This repository includes structured data optimized for AI model training, comparative health studies, and agricultural research.
 
-The dataset is organized into three main categories:
+## 📂 Project Structure
 
-### 1. Plant Diseases
-A wide variety of crops and conditions, including:
-*   **Tomato**: Bacterial spot, Early blight, Late blight, Leaf Mold, Septoria leaf spot, Spider mites, Target Spot, Tomato Yellow Leaf Curl Virus, Tomato mosaic virus, and Healthy samples.
-*   **Potato**: Early blight, Late blight, Healthy.
-*   **Pepper (Bell)**: Bacterial spot, Healthy.
-*   **Others**: Areca nut, Citrus canker, Powdery mildew, Rose black spot.
+The dataset is organized hierarchically:
 
-### 2. Animal Diseases
-*   Lumpy Skin Disease
-*   Sarcoptic Mange
-*   Sheep Pox
-*   Swine Erysipelas
+```
+Disease-Dataset-db/
+├── dataset_index.csv       # Master index mapping all images to labels and metadata
+├── diseases/               # Main data directory
+│   ├── plant/              # Plant diseases
+│   │   ├── potato_early_blight/
+│   │   │   ├── info.json   # Metadata for this specific disease
+│   │   │   └── images/     # Image samples
+│   │   └── ...
+│   ├── animal/             # Animal diseases
+│   └── human/              # Human diseases
+├── trained data -pt/       # Pre-trained PyTorch models
+└── scripts...              # Maintenance and analysis scripts
+```
 
-### 3. Human Diseases
-*   Acne Vulgaris
-*   AIDS
-*   Eczema
-*   Smoker's Lung
-*   Vitiligo
+## 📊 Data Schema
 
-## Recent Updates
-- **2026-01-19**: Large-scale dataset expansion merged into `main` via Pull Request #1. Included handling of large image datasets through batched commits.
+Each disease category contains an `info.json` file following this comprehensive schema:
 
+```json
+{
+  "id": "DISEASE_DOMAIN_CLASS_001",
+  "name": "Common Name",
+  "scientific_name": "Latin Name",
+  "description": "General description of the disease.",
+  "symptoms": [
+    "List of symptoms",
+    "Visible signs"
+  ],
+  "host": [
+    "List of affected species"
+  ],
+  "pathogen": {
+    "type": "Fungi/Bacteria/Virus/etc",
+    "class": "Taxonomic class",
+    "genus": "Taxonomic genus"
+  },
+  "transmission": [
+    "Modes of transmission"
+  ],
+  "treatment": [
+    "Recommended treatments"
+  ],
+  "prevention": [
+    "Preventive measures"
+  ],
+  "stages": [
+    "Early",
+    "Late"
+  ],
+  "domain": "plant/animal/human",
+  "image_url": "Relative path to image directory"
+}
+```
 
-## Trained Models
+## 🛠️ Scripts & Usage
 
-The repository includes a `trained data -pt` directory which houses the pre-trained models:
+This repository includes several utility scripts to maintain data integrity.
 
-- **disease_model.pt**: A serialized PyTorch model containing weights and architecture for disease classification. This model can be loaded to make predictions using the dataset.
+### 1. Analyze Missing Data
+Scans all `info.json` files to identify missing fields (marked as "Unknown", empty strings, or empty lists).
 
-## Future Plans
-We are actively working on collecting and labeling more disease data. Expect updates with additional disease categories and samples in the upcoming days.
+```bash
+python3 analyze_missing_data.py
+```
+**Output**: specific files and fields that need enrichment.
+
+### 2. Standardize Dataset
+Enforces directory naming conventions (snake_case) and rebuilds the `dataset_index.csv`.
+
+```bash
+python3 standardize_dataset.py
+```
+**Action**:
+- Renames folders (e.g., `Potato Early Blight` -> `potato_early_blight`)
+- Generates/updates `dataset_index.csv`
+
+### 3. Verify Dataset
+Validates the integrity of the `dataset_index.csv` against the actual filesystem.
+
+```bash
+python3 verify_dataset.py
+```
+**Checks**:
+- Ensures every image path in CSV exists.
+- Ensures every metadata path in CSV exists and is valid JSON.
+
+## 🧠 Trained Models
+
+The `trained data -pt` directory contains pre-trained models:
+- **disease_model.pt**: A PyTorch model trained for multi-class disease classification.
+
+## 🤝 Contributing
+
+1.  **Enrich Data**: Run `analyze_missing_data.py` to find gaps.
+2.  **Add Images**: Place new images in `diseases/<domain>/<disease>/images/`.
+3.  **Standardize**: Always run `standardize_dataset.py` after adding new folders or files.
+4.  **Verify**: Run `verify_dataset.py` before committing.
+
