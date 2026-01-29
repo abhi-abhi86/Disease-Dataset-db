@@ -3,66 +3,115 @@
     "domain": "plant",
     "category": "fungal_disease",
     "name": "Tomato Early Blight",
-    "scientific_name": "Unknown",
-    "common_names": [],
+    "scientific_name": "Alternaria solani",
+    "common_names": [
+        "Early Blight",
+        "Target Spot",
+        "Bullseye Rot"
+    ],
     "description": "A common fungal disease of tomato and potato plants caused by the fungus *Alternaria solani*. It primarily affects leaves and stems, and can also infect fruit, leading to defoliation, reduced plant vigor, and significant yield loss.",
     "pathogen": {
-        "type": "Unknown",
-        "genus": "Unknown",
-        "species": "Unknown"
+        "type": "Fungal",
+        "genus": "Alternaria",
+        "species": "Alternaria solani"
     },
     "affected_plants": [
-        "Tomato"
+        "Tomato",
+        "Potato",
+        "Eggplant",
+        "Pepper"
     ],
-    "symptoms": [],
+    "symptoms": [
+        "Small, dark brown to black spots on older leaves",
+        "Concentric rings within spots ('bullseye' pattern)",
+        "Yellowing (chlorosis) around spots",
+        "Leaf drop (defoliation) starting from the bottom",
+        "Dark, sunken lesions on stems (collar rot)",
+        "Leathery, sunken spots on fruit with concentric rings"
+    ],
     "disease_stages": {
         "early_stage": {
             "description": "Typically begins on older, lower leaves as small, dark brown to black, circular spots. These spots may be overlooked and can be surrounded by a small yellow area.",
-            "visual_signs": []
+            "visual_signs": [
+                "Small brown specks on lower leaves",
+                "Yellowing near spots"
+            ]
         },
         "middle_stage": {
             "description": "The spots enlarge (up to 1.5 cm) and develop characteristic concentric rings, creating a 'target-board' or 'bullseye' appearance. A yellow halo often surrounds the lesion. Lesions can merge (coalesce), causing large areas of the leaf to turn yellow (chlorotic) and then brown (necrotic) before dying and falling off. This defoliation starts from the bottom of the plant and moves upward. Dark, sunken lesions can also form on stems and fruit (often at the stem end), which may also show concentric rings.",
-            "visual_signs": []
+            "visual_signs": [
+                "Bullseye/target shaped spots",
+                "Yellowing of entire leaflets",
+                "Stem lesions"
+            ]
         },
         "advanced_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Severe defoliation exposes fruit to sunscald. The disease spreads to the upper canopy. Fruit infection leads to rot and drop. The plant becomes stunted and may die if collar rot is severe.",
+            "visual_signs": [
+                "Significant leaf loss",
+                "Sunscalded fruit",
+                "Dark, velvety mold on lesions",
+                "Plant death"
+            ]
         }
     },
     "causes": "Caused by the fungus *Alternaria solani*. The fungus survives the winter in infected plant debris left in the field, in the soil, and can also be seed-borne. Spores (conidia) are produced and spread to healthy plants by wind, splashing rain, and overhead irrigation.",
-    "mode_of_transmission": [],
+    "mode_of_transmission": [
+        "Windblown spores",
+        "Splashing rain or irrigation water",
+        "Infected seeds",
+        "Mechanical transfer (tools, workers)",
+        "Infected plant debris"
+    ],
     "favorable_conditions": {
-        "temperature": "Unknown",
-        "humidity": "Unknown",
+        "temperature": "24°C to 29°C (75°F to 84°F)",
+        "humidity": "High humidity (>90%) and frequent rainfall",
         "environment": "Warm, humid weather with frequent rainfall, heavy dews, or overhead irrigation (long periods of leaf wetness). The disease thrives in conditions with alternating wet and dry periods. Plant stress from poor nutrition (especially low nitrogen), drought, or heavy fruit load makes the plant more susceptible. It is most common on plants as they mature."
     },
-    "severity_level": "Unknown",
+    "severity_level": "Moderate to High",
     "impact": {
-        "crop_loss_percentage": "Unknown",
-        "economic_impact": "Unknown"
+        "crop_loss_percentage": "20% to 50% (can be higher if untreated)",
+        "economic_impact": "Reduces marketable yield due to fruit damage and sunscald. Increases management costs for fungicides."
     },
     "diagnosis": {
-        "field_diagnosis": "Unknown",
-        "laboratory_diagnosis": "Unknown"
+        "field_diagnosis": "Visual identification of concentric rings ('target spot') in lesions on older leaves.",
+        "laboratory_diagnosis": "Microscopic examination of conidia (spores) which are distinctively club-shaped with a beak."
     },
     "prevention": [
-        "Use certified disease",
-        "free seeds and transplants. Plant resistant or tolerant tomato varieties. Practice crop rotation with non",
-        "solanaceous crops (e.g., grains, corn) for at least 3",
-        "4 years. Remove and destroy all plant debris after harvest. Mulch the soil to create a barrier against spores splashing up. Water at the base of the plant (e.g., drip irrigation) to keep foliage dry. Stake or trellis plants to improve air circulation."
+        "Use certified disease-free seeds and transplants.",
+        "Plant resistant or tolerant tomato varieties.",
+        "Practice crop rotation with non-solanaceous crops (e.g., grains, corn) for at least 3-4 years.",
+        "Remove and destroy all plant debris after harvest.",
+        "Mulch the soil to create a barrier against spores splashing up.",
+        "Water at the base of the plant (e.g., drip irrigation) to keep foliage dry.",
+        "Stake or trellis plants to improve air circulation."
     ],
     "treatment": {
         "chemical_control": [
             "Monitor plants regularly, especially older leaves. Remove and destroy infected lower leaves as soon as they appear to reduce the spread. Apply protective fungicides (e.g., chlorothalonil, mancozeb, copper-based products) before the disease appears or at the very first sign of symptoms, especially when weather conditions are favorable. Ensure adequate plant nutrition, particularly nitrogen, to maintain plant vigor."
         ],
-        "organic_control": [],
-        "cultural_control": []
+        "organic_control": [
+            "Copper fungicides (Bordeaux mixture)",
+            "Biological control agents (e.g., *Bacillus subtilis*)",
+            "Neem oil (preventative)"
+        ],
+        "cultural_control": [
+            "Pruning lower leaves for airflow",
+            "Proper nitrogen fertilization",
+            "Weed control (nightshades)"
+        ]
     },
-    "resistant_varieties": "Unknown",
-    "life_cycle": "Unknown",
-    "geographical_distribution": [],
+    "resistant_varieties": "Mountain Fresh Plus, Defiant PhR, Iron Lady (tolerance varies)",
+    "life_cycle": "Polycyclic. The fungus overwinters in debris/soil/seed. Primary inoculum infects lower leaves. Secondary cycles occur repeatedly throughout the season via wind/splash dispersed spores.",
+    "geographical_distribution": [
+        "Worldwide (wherever tomatoes are grown)"
+    ],
     "image_url": "diseases/plant/tomato_early_blight/images/7b085d56-6867-4946-8208-5823afeba034___RS_Erly.B 7384.JPG",
-    "related_diseases": [],
+    "related_diseases": [
+        "Tomato Late Blight",
+        "Septoria Leaf Spot",
+        "Anthracnose"
+    ],
     "dataset_metadata": {
         "created_by": "https://github.com/abhi-abhi86",
         "version": "1.0",

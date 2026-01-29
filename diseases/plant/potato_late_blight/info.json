@@ -3,65 +3,112 @@
     "domain": "plant",
     "category": "fungal_disease",
     "name": "Potato Late Blight",
-    "scientific_name": "Unknown",
-    "common_names": [],
+    "scientific_name": "Phytophthora infestans",
+    "common_names": [
+        "Late Blight",
+        "Potato Blight",
+        "Irish Blight"
+    ],
     "description": "A highly destructive fungal-like disease affecting potatoes and tomatoes, caused by the oomycete *Phytophthora infestans*. It can rapidly destroy leaves, stems, and tubers, and is infamous for causing the Irish Potato Famine in the 1840s.",
     "pathogen": {
-        "type": "Unknown",
-        "genus": "Unknown",
-        "species": "Unknown"
+        "type": "Oomycete (Water Mold)",
+        "genus": "Phytophthora",
+        "species": "Phytophthora infestans"
     },
     "affected_plants": [
-        "Potato"
+        "Potato",
+        "Tomato",
+        "Hairy Nightshade",
+        "Bittersweet Nightshade"
     ],
-    "symptoms": [],
+    "symptoms": [
+        "Large, dark, water-soaked leaf spots",
+        "White fungal growth on leaf undersides",
+        "Brown/black stem lesions",
+        "Putrid smell",
+        "Reddish-brown, granular rot in tubers",
+        "Rapid plant death"
+    ],
     "disease_stages": {
         "early_stage": {
             "description": "Often begins as pale green or dark, water-soaked, irregular-shaped spots on the edges or tips of leaves. In humid conditions, a fuzzy, white mold (sporangia) may appear on the underside of the leaf, especially in the early morning.",
-            "visual_signs": []
+            "visual_signs": [
+                "Water-soaked spots",
+                "Leaf tip necrosis"
+            ]
         },
         "middle_stage": {
             "description": "The spots rapidly enlarge, turning dark brown to black and becoming necrotic. The entire leaf can be destroyed in a few days. The infection can spread to stems, causing dark, oily-looking lesions. Infected tubers develop a reddish-brown, corky rot that extends from the skin into the flesh. The disease spreads extremely quickly, capable of destroying an entire field in 1-2 weeks.",
-            "visual_signs": []
+            "visual_signs": [
+                "Blackened leaves",
+                "Stem lesions",
+                "Fast decay"
+            ]
         },
         "advanced_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Plants collapse and rot, emitting a foul odor. Tubers rot in the ground or in storage.",
+            "visual_signs": [
+                "Field collapse",
+                "Rotting tubers",
+                "Putrid odor"
+            ]
         }
     },
     "causes": "Caused by the water mold (oomycete) *Phytophthora infestans*. The pathogen survives the winter in infected tubers (seed potatoes or 'volunteers' left in the field) and plant debris. Spores are easily spread by wind and splashing rain to healthy plants.",
-    "mode_of_transmission": [],
+    "mode_of_transmission": [
+        "Wind-blown spores (long distance)",
+        "Splashing rain",
+        "Infected seed tubers",
+        "Volunteer plants"
+    ],
     "favorable_conditions": {
-        "temperature": "Unknown",
-        "humidity": "Unknown",
+        "temperature": "10°C to 24°C (50°F to 75°F)",
+        "humidity": "High (>90%) / Fog / Dew",
         "environment": "Cool, moist weather is ideal for late blight. High humidity (over 90%), frequent rain, fog, or heavy dew, combined with cool to moderate temperatures (typically 10-24\u00b0C or 50-75\u00b0F) create perfect conditions for infection and rapid spread."
     },
-    "severity_level": "Unknown",
+    "severity_level": "Category 1 - Critical/Devastating",
     "impact": {
-        "crop_loss_percentage": "Unknown",
-        "economic_impact": "Unknown"
+        "crop_loss_percentage": "Up to 100%",
+        "economic_impact": "Total crop failure if untreated. Requires expensive fungicide programs."
     },
     "diagnosis": {
-        "field_diagnosis": "Unknown",
-        "laboratory_diagnosis": "Unknown"
+        "field_diagnosis": "Rapidly spreading dark spots + white fuzz on underside + foul smell.",
+        "laboratory_diagnosis": "Immunoassay strips, PCR, Microscopy."
     },
     "prevention": [
-        "Use certified disease",
-        "free seed tubers. Plant resistant or tolerant potato varieties. Destroy all 'volunteer' potato plants that grow from tubers left in the field. Practice crop rotation (avoiding tomatoes/potatoes in the same spot for 3",
-        "4 years). Ensure good air circulation with proper spacing. Water at the base of the plant and avoid overhead irrigation. 'Hill' soil high around plants to protect tubers from spores washing down from the leaves."
+        "Use certified disease-free seed tubers.",
+        "Plant resistant or tolerant potato varieties.",
+        "Destroy all 'volunteer' potato plants that grow from tubers left in the field.",
+        "Practice crop rotation (avoiding tomatoes/potatoes in the same spot for 3-4 years).",
+        "Ensure good air circulation with proper spacing.",
+        "Water at the base of the plant and avoid overhead irrigation.",
+        "'Hill' soil high around plants to protect tubers from spores washing down from the leaves."
     ],
     "treatment": {
         "chemical_control": [
             "Monitor weather forecasts; late blight warnings are often issued when conditions are favorable. Apply fungicides *before* the disease appears (preventatively) or at the very first sign. Fungicides (e.g., chlorothalonil, mancozeb, copper-based products, or specific systemic fungicides like metalaxyl) are essential for control. Once infection is established, it is very difficult to stop. Remove and destroy infected plants immediately (burn or bag and dispose) to reduce the source of spores."
         ],
-        "organic_control": [],
-        "cultural_control": []
+        "organic_control": [
+            "Fixed copper fungicides",
+            "Destruction of cull piles",
+            "Killing vines prior to harvest"
+        ],
+        "cultural_control": [
+            "Desiccate vines 2 weeks before harvest (skin set)",
+            "Harvest only in dry weather",
+            "Store dry and cool"
+        ]
     },
-    "resistant_varieties": "Unknown",
-    "life_cycle": "Unknown",
-    "geographical_distribution": [],
+    "resistant_varieties": "Sebago, Kennebec (moderate resistance). New cultivars like 'Defender'.",
+    "life_cycle": "Sporangia produced on leaves release zoospores in water, which infect tissues. Rapid asexual cycles.",
+    "geographical_distribution": [
+        "Worldwide (Cool/Temperate regions)"
+    ],
     "image_url": "diseases/plant/potato_late_blight/images/2ef5c4f6-a798-40fd-8380-f444f3290987___RS_LB 4428.JPG",
-    "related_diseases": [],
+    "related_diseases": [
+        "Tomato Late Blight",
+        "Pink Rot"
+    ],
     "dataset_metadata": {
         "created_by": "https://github.com/abhi-abhi86",
         "version": "1.0",

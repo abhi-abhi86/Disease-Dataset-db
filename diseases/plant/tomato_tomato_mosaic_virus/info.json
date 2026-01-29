@@ -1,67 +1,109 @@
 {
     "id": "PLANT_DISEASE_TOMATO_MOSAIC_VIRUS_TOMV_001",
     "domain": "plant",
-    "category": "fungal_disease",
+    "category": "viral_disease",
     "name": "Tomato Mosaic Virus (ToMV)",
-    "scientific_name": "Unknown",
-    "common_names": [],
+    "scientific_name": "Tomato mosaic virus",
+    "common_names": [
+        "ToMV",
+        "Tobacco Mosaic (strain)"
+    ],
     "description": "A highly infectious viral disease affecting tomato plants, along with other members of the nightshade family. It is characterized by mosaic patterns, mottling, and malformation of leaves, leading to stunted plants and reduced fruit yield and quality.",
     "pathogen": {
-        "type": "Unknown",
-        "genus": "Unknown",
-        "species": "Unknown"
+        "type": "Virus",
+        "genus": "Tobamovirus",
+        "species": "Tomato mosaic virus"
     },
     "affected_plants": [
-        "Tomato"
+        "Tomato",
+        "Pepper",
+        "Eggplant",
+        "Tobacco",
+        "Petunia"
     ],
-    "symptoms": [],
+    "symptoms": [
+        "Light/dark green mosaic mottling on leaves",
+        "Leaf distortion (fern-leaf, string-leaf)",
+        "Stunting of the plant",
+        "Internal browning of fruit (wall reddening)",
+        "Uneven fruit ripening"
+    ],
     "disease_stages": {
         "early_stage": {
             "description": "Often appears on younger leaves as light green or yellowish mottling, or a 'mosaic' pattern of light and dark green areas. Vein clearing (where the veins appear lighter than the leaf tissue) can also be an early symptom.",
-            "visual_signs": []
+            "visual_signs": [
+                "Mottled leaf color",
+                "Vein clearing"
+            ]
         },
         "middle_stage": {
             "description": "Leaves become severely distorted, puckered, blistered, and stunted. Leaflets may become fern-like, narrow, or 'stringy'. The entire plant's growth is often stunted. Fruits may be small, malformed, ripen unevenly, or show internal browning (blotchy ripening).",
-            "visual_signs": []
+            "visual_signs": [
+                "Fern-like leaves",
+                "Blistered leaf surface"
+            ]
         },
         "advanced_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Plant is severely stunted and bushy. Fruit yield is negligible and quality is poor (blotchy/brown interior).",
+            "visual_signs": [
+                "Severely dwarfed plant",
+                "Brown, necrotic streaks on stems/fruit"
+            ]
         }
     },
-    "causes": "Caused by the **Tomato mosaic virus (ToMV)**, a very stable plant pathogenic virus. It is easily transmitted mechanically through contaminated hands, clothing, and tools (pruners, stakes). It can also be spread through infected seed and can persist in dried plant debris or sap for years. It is closely related to the Tobacco Mosaic Virus (TMV).",
-    "mode_of_transmission": [],
+    "causes": "Caused by the **Tomato mosaic virus (ToMV)**, a very stable plant pathogenic virus. It is easily transmitted mechanically through contaminated hands, clothing, and tools (pruners, stakes). It can also be spread through infected seed and can persist in dried plant debris or sap for years.",
+    "mode_of_transmission": [
+        "Mechanical (hands, tools)",
+        "Infected seed",
+        "Soil debris",
+        "Grafting"
+    ],
     "favorable_conditions": {
-        "temperature": "Unknown",
-        "humidity": "Unknown",
+        "temperature": "Can occur in wide range",
+        "humidity": "N/A",
         "environment": "Handling plants (especially when pruning, tying, or harvesting) can easily spread the virus from an infected plant to a healthy one. Using contaminated tools without sanitation. Tobacco users (smokers, chewers) handling plants, as the virus can be present in tobacco products and transferred via hands. Planting infected seeds or transplants."
     },
-    "severity_level": "Unknown",
+    "severity_level": "High (Highly contagious)",
     "impact": {
-        "crop_loss_percentage": "Unknown",
-        "economic_impact": "Unknown"
+        "crop_loss_percentage": "10% to 50% (quality loss is significant)",
+        "economic_impact": "Reduced distinctive fruit quality makes them unmarketable."
     },
     "diagnosis": {
-        "field_diagnosis": "Unknown",
-        "laboratory_diagnosis": "Unknown"
+        "field_diagnosis": "Mosaic pattern on leaves + leaf deformity.",
+        "laboratory_diagnosis": "Immunoassay strips, ELISA, RT-PCR."
     },
     "prevention": [
-        "Use certified disease",
-        "free seeds and transplants. Choose ToMV",
-        "resistant tomato varieties. Wash hands thoroughly with soap and water before and during the handling of plants (especially important for tobacco users). Regularly sanitize all tools (e.g., with a 10% bleach solution or by dipping in a strong milk solution). Remove and destroy (do not compost) any plants showing symptoms immediately. Practice crop rotation and avoid planting tomatoes or other solanaceous crops (peppers, eggplant) in the same soil for at least two years."
+        "Use certified disease-free seeds and transplants.",
+        "Choose ToMV-resistant tomato varieties.",
+        "Wash hands thoroughly with soap and water before and during the handling of plants (especially important for tobacco users).",
+        "Regularly sanitize all tools (e.g., with a 10% bleach solution or by dipping in a strong milk solution).",
+        "Remove and destroy (do not compost) any plants showing symptoms immediately.",
+        "Practice crop rotation."
     ],
     "treatment": {
         "chemical_control": [
             "**There is no cure** for plants infected with Tomato Mosaic Virus. The only effective 'solution' is immediate removal and destruction of the entire infected plant (including roots) to prevent the virus from spreading. Management relies entirely on strict sanitation and the preventive measures listed above."
         ],
-        "organic_control": [],
-        "cultural_control": []
+        "organic_control": [
+            "Milk sprays (preventative, inactivates virus on tools)",
+            "Strict sanitation"
+        ],
+        "cultural_control": [
+            "Crop rotation",
+            "Solarization of soil",
+            "Weed removal"
+        ]
     },
-    "resistant_varieties": "Unknown",
-    "life_cycle": "Unknown",
-    "geographical_distribution": [],
+    "resistant_varieties": "Celebrity, Big Beef, Mountain Fresh (Tm-2 gene resistance commonly available)",
+    "life_cycle": "Virus replicates in living cells. Extremely stable outside the host.",
+    "geographical_distribution": [
+        "Worldwide"
+    ],
     "image_url": "diseases/plant/tomato_tomato_mosaic_virus/images/2e03280e-123a-4231-a73a-652c57338137___PSU_CG 2053.JPG",
-    "related_diseases": [],
+    "related_diseases": [
+        "Tobacco Mosaic Virus (TMV)",
+        "Cucumber Mosaic Virus (CMV)"
+    ],
     "dataset_metadata": {
         "created_by": "https://github.com/abhi-abhi86",
         "version": "1.0",

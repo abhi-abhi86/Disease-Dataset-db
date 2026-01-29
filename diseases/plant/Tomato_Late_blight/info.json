@@ -3,64 +3,109 @@
     "domain": "plant",
     "category": "fungal_disease",
     "name": "Tomato Late Blight",
-    "scientific_name": "Unknown",
-    "common_names": [],
+    "scientific_name": "Phytophthora infestans",
+    "common_names": [
+        "Late Blight",
+        "Potato Blight"
+    ],
     "description": "A highly destructive and fast-spreading disease affecting tomato and potato plants, caused by the oomycete (water mold) *Phytophthora infestans*. It can rapidly destroy leaves, stems, and fruit, leading to total crop loss.",
     "pathogen": {
-        "type": "Unknown",
-        "genus": "Unknown",
-        "species": "Unknown"
+        "type": "Oomycete",
+        "genus": "Phytophthora",
+        "species": "Phytophthora infestans"
     },
     "affected_plants": [
-        "Tomato"
+        "Tomato",
+        "Potato",
+        "Petunia",
+        "Nightshades"
     ],
-    "symptoms": [],
+    "symptoms": [
+        "Water-soaked, irregular green/brown spots on leaves",
+        "White, fuzzy fungal growth on leaf undersides",
+        "Dark brown cankers on stems",
+        "Firm, brown, bumpy lesions on fruit",
+        "Rapid plant collapse (blight)"
+    ],
     "disease_stages": {
         "early_stage": {
             "description": "Often begins as pale green or dark, water-soaked, irregular-shaped spots, typically near the edges or tips of leaves. In humid conditions, a fuzzy, white mold (sporangia) may appear on the underside of the leaf, especially in the early morning.",
-            "visual_signs": []
+            "visual_signs": [
+                "Water-soaked leaf edges",
+                "Light green halos"
+            ]
         },
         "middle_stage": {
             "description": "The spots rapidly enlarge, turning dark brown to black and becoming necrotic (dead). The entire leaf can be destroyed quickly. The infection spreads to stems, causing large, dark lesions. On fruit, it appears as large, firm, oily-looking, brownish-grey lesions that can rot the entire fruit.",
-            "visual_signs": []
+            "visual_signs": [
+                "Large brown leaf lesions",
+                "Stem cankers",
+                "White fungal fuzz"
+            ]
         },
         "advanced_stage": {
-            "description": "",
-            "visual_signs": []
+            "description": "Rapid destruction of all foliage and fruit. The field may emit a foul odor of rotting vegetation. Tubers/fruit rot and secondary infections set in.",
+            "visual_signs": [
+                "Total plant collapse",
+                "Rotten, smelly fruit",
+                "Defoliation"
+            ]
         }
     },
     "causes": "Caused by the water mold *Phytophthora infestans*. The pathogen survives in infected potato tubers (seed or 'volunteers') and infected plant debris. Its spores are easily spread long distances by wind and locally by splashing rain.",
-    "mode_of_transmission": [],
+    "mode_of_transmission": [
+        "Windblown sporangia (can travel miles)",
+        "Infected seed tubers",
+        "Volunteer plants",
+        "Splashing rain"
+    ],
     "favorable_conditions": {
-        "temperature": "Unknown",
-        "humidity": "Unknown",
+        "temperature": "cool to moderate (15°C to 24°C / 60°F to 75°F)",
+        "humidity": "High humidity (>90%) is critical",
         "environment": "Cool, moist weather is ideal for late blight. High humidity (over 90%), frequent rain, fog, or heavy dew, combined with cool to moderate temperatures (typically 15-24\u00b0C or 60-75\u00b0F) create perfect conditions for infection and explosive spread."
     },
-    "severity_level": "Unknown",
+    "severity_level": "Very High (Epidemic)",
     "impact": {
-        "crop_loss_percentage": "Unknown",
-        "economic_impact": "Unknown"
+        "crop_loss_percentage": "Up to 100% within days",
+        "economic_impact": "Total crop failure potential. Historically caused the Irish Potato Famine."
     },
     "diagnosis": {
-        "field_diagnosis": "Unknown",
-        "laboratory_diagnosis": "Unknown"
+        "field_diagnosis": "Rapid spreading water-soaked lesions with white mold on undersides in cool/wet weather.",
+        "laboratory_diagnosis": "PCR testing, Immunostrip tests, Microscopic ID of lemon-shaped sporangia."
     },
     "prevention": [
-        "Use certified disease",
-        "free transplants. Plant resistant or tolerant tomato varieties. Destroy all 'volunteer' potato or tomato plants. Ensure good air circulation with proper spacing and pruning. Water at the base of the plant (e.g., drip irrigation) to keep foliage dry. Monitor weather forecasts for 'blight warnings' and apply preventative fungicides."
+        "Use certified disease-free transplants/seed potatoes.",
+        "Plant resistant or tolerant tomato varieties.",
+        "Destroy all 'volunteer' potato or tomato plants.",
+        "Ensure good air circulation with proper spacing and pruning.",
+        "Water at the base of the plant (e.g., drip irrigation) to keep foliage dry.",
+        "Monitor weather forecasts for 'blight warnings' and apply preventative fungicides."
     ],
     "treatment": {
         "chemical_control": [
-            "**Immediate action is critical.** Remove and destroy (burn or bag and dispose, do not compost) all infected plant material immediately. Apply fungicides as soon as symptoms are seen or when conditions are favorable. Fungicides (e.g., chlorothalonil, mancozeb, copper-based products, or specific systemic fungicides) are essential for control. Rotate fungicide types to prevent resistance."
+            "**Immediate action is critical.** Remove and destroy (burn or bag and dispose, do not compost) all infected plant material immediately. Apply fungicides as soon as symptoms are seen or when conditions are favorable. Fungicides (e.g., chlorothalonil, mancozeb, copper-based products, or specific systemic fungicides like metalaxyl) are essential for control. Rotate fungicide types to prevent resistance."
         ],
-        "organic_control": [],
-        "cultural_control": []
+        "organic_control": [
+            "Copper fungicides (preventative)",
+            "Destroy infected plants immediately (sanitation)",
+            "Biofungicides (limited efficacy once established)"
+        ],
+        "cultural_control": [
+            "Eliminate cull piles",
+            "Wide spacing",
+            "Avoid overhead irrigation"
+        ]
     },
-    "resistant_varieties": "Unknown",
-    "life_cycle": "Unknown",
-    "geographical_distribution": [],
+    "resistant_varieties": "Mountain Magic, Legend, Defiant PhR (varying resistance)",
+    "life_cycle": "Polycyclic and rapid. Sporangia germinate on wet leaves, penetrate, and produce new sporangia in days.",
+    "geographical_distribution": [
+        "Worldwide (Temperate and subtropical regions)"
+    ],
     "image_url": "diseases/plant/tomato_late_blight/images/3d9cca85-96cf-4186-b863-933bbbbc8075___GHLB2 Leaf 117.4.JPG",
-    "related_diseases": [],
+    "related_diseases": [
+        "Tomato Early Blight",
+        "Buckeye Rot"
+    ],
     "dataset_metadata": {
         "created_by": "https://github.com/abhi-abhi86",
         "version": "1.0",
